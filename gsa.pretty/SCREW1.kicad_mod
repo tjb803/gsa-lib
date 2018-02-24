@@ -1,0 +1,18 @@
+(module SCREW1 (layer F.Cu) (tedit 56BF67D5)
+  (fp_text reference SCREW1 (at 0 -3.175) (layer F.SilkS)
+    (effects (font (size 1.27 1.016) (thickness 0.254)))
+  )
+  (fp_text value VAL** (at 0 3.175) (layer F.SilkS) hide
+    (effects (font (size 1.27 0.762) (thickness 0.1905)))
+  )
+  (fp_line (start 2.54 -5.08) (end 2.54 5.08) (layer F.SilkS) (width 0.4))
+  (fp_line (start -2.54 -5.08) (end -2.54 5.08) (layer F.SilkS) (width 0.4))
+  (fp_line (start -2.54 5.08) (end 2.54 5.08) (layer F.SilkS) (width 0.4))
+  (fp_line (start -2.54 -5.08) (end 2.54 -5.08) (layer F.SilkS) (width 0.4))
+  (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+  (model ${GSALIB}/gsa.3d/screw2.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
