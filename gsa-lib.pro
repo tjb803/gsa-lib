@@ -1,4 +1,4 @@
-update=24/02/2018 18:53:13
+update=03/03/2018 12:18:51
 version=1
 last_client=eeschema
 [general]
@@ -32,3 +32,13 @@ version=1
 LibDir=
 [eeschema/libraries]
 LibName1=gsa.lib/gsa
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

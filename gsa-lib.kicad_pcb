@@ -8,7 +8,7 @@
     (drawings 20)
     (tracks 0)
     (zones 0)
-    (modules 91)
+    (modules 92)
     (nets 1)
   )
 
@@ -73,7 +73,7 @@
     (aux_axis_origin 0 0)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x08130_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -92,9 +92,9 @@
       (plotinvisibletext false)
       (padsonsilk false)
       (subtractmaskfromsilk false)
-      (outputformat 1)
+      (outputformat 4)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
       (outputdirectory ""))
   )
@@ -110,12 +110,66 @@
     (uvia_drill 0.1)
   )
 
+  (module gsa:LED3 (layer F.Cu) (tedit 56FEA8FF) (tstamp 5A9A71B9)
+    (at 102.87 105.41)
+    (fp_text reference LED3 (at 0 -3.556) (layer F.SilkS)
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_text value 3mm (at 0 3.556) (layer Dwgs.User)
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_arc (start 0 0) (end -1.9685 -1.5875) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.9685 1.5875) (end -1.9685 -1.5875) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.397 -1.27) (end -1.397 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.397 1.27) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end -1.397 -1.27) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.651 1.905) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 0 -1.905) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 0 -2.54) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 2.54 0) (angle 90) (layer F.SilkS) (width 0.3048))
+    (pad K thru_hole rect (at -1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (pad A thru_hole circle (at 1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (model ${GSALIB}/gsa.3d/led2v.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module gsa:LED3 (layer F.Cu) (tedit 56FEA8FF) (tstamp 5A9A717A)
+    (at 97.155 105.41)
+    (fp_text reference LED3 (at 0 -3.556) (layer F.SilkS)
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_text value 3mm (at 0 3.556) (layer Dwgs.User)
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_arc (start 0 0) (end -1.9685 -1.5875) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.9685 1.5875) (end -1.9685 -1.5875) (layer F.SilkS) (width 0.3048))
+    (fp_line (start -1.397 -1.27) (end -1.397 1.27) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.397 1.27) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end -1.397 -1.27) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.651 1.905) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 0 -1.905) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 1.905 0) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 0 -2.54) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 0) (end 2.54 0) (angle 90) (layer F.SilkS) (width 0.3048))
+    (pad K thru_hole rect (at -1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (pad A thru_hole circle (at 1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (model ${GSALIB}/gsa.3d/led3h.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 180))
+    )
+  )
+
   (module gsa:MOLEX1 (layer F.Cu) (tedit 5A8F24F9) (tstamp 5A86E32A)
     (at 23.368 154.432)
     (fp_text reference MOLEX1 (at 0.127 -4.572) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 1pin (at 0.127 4.953) (layer F.SilkS) hide
+    (fp_text value 1pin (at 0.127 4.953) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.27 -1.905) (end 1.27 -1.905) (layer F.SilkS) (width 0.4))
@@ -133,12 +187,12 @@
     )
   )
 
-  (module gsa:TO92F-SGD (layer F.Cu) (tedit 5A85E029) (tstamp 5A873A63)
-    (at 207.264 88.392)
+  (module gsa:TO92F-SGD (layer F.Cu) (tedit 5A9A9D04) (tstamp 5A873A63)
+    (at 207.01 88.265)
     (fp_text reference TO92F-SGD (at 0 -3.429) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 2.921) (layer F.SilkS) hide
+    (fp_text value "" (at 0 2.921) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.413) (end 1.778 -2.413) (layer F.SilkS) (width 0.3048))
@@ -155,12 +209,12 @@
     )
   )
 
-  (module gsa:TO92F-DGS (layer F.Cu) (tedit 5A8707C8) (tstamp 5A8731A9)
-    (at 191.008 88.392)
-    (fp_text reference TO92F-DGS (at 0 -3.429) (layer F.SilkS)
+  (module gsa:TO92F-DGS (layer F.Cu) (tedit 5A9A9D01) (tstamp 5A8731A9)
+    (at 191.135 88.265)
+    (fp_text reference TO92F-DGS (at 0.127 -3.429) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 2.921) (layer F.SilkS) hide
+    (fp_text value "" (at 0 2.921) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.413) (end 1.778 -2.413) (layer F.SilkS) (width 0.3048))
@@ -177,34 +231,12 @@
     )
   )
 
-  (module gsa:TO92F-GSD (layer F.Cu) (tedit 5A8701D1) (tstamp 5A873606)
-    (at 199.136 88.392)
-    (fp_text reference TO92F-GSD (at 0 -3.302) (layer F.SilkS)
-      (effects (font (size 1.27 0.762) (thickness 0.1905)))
-    )
-    (fp_text value "" (at 0 3.048) (layer F.SilkS) hide
-      (effects (font (size 1.27 0.762) (thickness 0.1905)))
-    )
-    (fp_line (start -1.778 -2.286) (end 1.778 -2.286) (layer F.SilkS) (width 0.3048))
-    (fp_arc (start 0 -0.508) (end -1.778 1.27) (angle 90) (layer F.SilkS) (width 0.3048))
-    (fp_arc (start 0 -0.508) (end 1.778 -2.286) (angle 90) (layer F.SilkS) (width 0.3048))
-    (fp_arc (start 0 -0.508) (end 1.778 1.27) (angle 90) (layer F.SilkS) (width 0.3048))
-    (pad S thru_hole circle (at 0 0.635) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-    (pad G thru_hole circle (at 1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-    (pad D thru_hole circle (at -1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-    (model ${GSALIB}/gsa.3d/to92f.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module gsa:TO92F-EBC (layer F.Cu) (tedit 5A8701C1) (tstamp 5A871A69)
-    (at 180.34 88.392)
+    (at 180.34 88.265)
     (fp_text reference TO92F-EBC (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.048) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.286) (end 1.778 -2.286) (layer F.SilkS) (width 0.3048))
@@ -222,11 +254,11 @@
   )
 
   (module gsa:TO92F-CBE (layer F.Cu) (tedit 5A8701A2) (tstamp 5A87160C)
-    (at 171.704 88.392)
+    (at 171.45 88.265)
     (fp_text reference TO92F-CBE (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.048) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.286) (end 1.778 -2.286) (layer F.SilkS) (width 0.3048))
@@ -244,11 +276,11 @@
   )
 
   (module gsa:TO92F-321 (layer F.Cu) (tedit 5A870190) (tstamp 5A8711AF)
-    (at 160.528 88.392)
+    (at 160.655 88.265)
     (fp_text reference TO92F-321 (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0.254 3.302) (layer F.SilkS) hide
+    (fp_text value "" (at 0.254 3.302) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.286) (end 1.778 -2.286) (layer F.SilkS) (width 0.3048))
@@ -266,11 +298,11 @@
   )
 
   (module gsa:TO92F (layer F.Cu) (tedit 5A87016F) (tstamp 5A870D51)
-    (at 152.4 88.392)
+    (at 152.4 88.265)
     (fp_text reference TO92F (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0.254 3.302) (layer F.SilkS) hide
+    (fp_text value "" (at 0.254 3.302) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -2.286) (end 1.778 -2.286) (layer F.SilkS) (width 0.3048))
@@ -292,7 +324,7 @@
     (fp_text reference SW-PUSH2 (at 0.127 8.509 180) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 0.635 180) (layer F.SilkS) hide
+    (fp_text value "" (at 0 0.635 180) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -4.445 0) (end -4.445 -4.445) (layer F.SilkS) (width 0.3))
@@ -315,7 +347,7 @@
     (fp_text reference SW-SPDT-V2 (at 0.381 25.146 180) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 5.08 180) (layer F.SilkS) hide
+    (fp_text value "" (at 0 5.08 180) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.27 -7.62) (end -1.27 -13.97) (layer F.CrtYd) (width 0.4))
@@ -348,7 +380,7 @@
     (fp_text reference SW-SPDT-H2 (at -0.127 17.018 180) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 5.08 180) (layer F.SilkS) hide
+    (fp_text value "" (at 0 5.08 180) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.27 -7.62) (end -1.27 -13.97) (layer F.CrtYd) (width 0.4))
@@ -381,7 +413,7 @@
     (fp_text reference SW-DPDT-H2 (at 0.127 21.082 180) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 5.08 180) (layer F.SilkS) hide
+    (fp_text value "" (at 0 5.08 180) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 1.27 -10.795) (end 1.27 -7.62) (layer F.CrtYd) (width 0.4))
@@ -420,7 +452,7 @@
     (fp_text reference POT-DUAL (at 0 12.065 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 2.54 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 2.54 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -8.255 -3.81) (end 8.255 -3.81) (layer F.CrtYd) (width 0.4))
@@ -451,11 +483,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GSALIB}/gsa.3d/pot-pcb-d.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module gsa:SW-PUSH (layer F.Cu) (tedit 5A8F22BC) (tstamp 5A878A6D)
@@ -463,7 +490,7 @@
     (fp_text reference SW-PUSH (at -8.509 0.381 360) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 6.35 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 6.35 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -3.175 5.08) (end 3.175 5.08) (layer F.SilkS) (width 0.4))
@@ -485,7 +512,7 @@
     (fp_text reference SW-TACT2 (at -0.635 -8.509) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 5.08) (layer F.SilkS) hide
+    (fp_text value "" (at 0 5.08) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_arc (start 0 0) (end 2.54 2.54) (angle 270) (layer F.SilkS) (width 0.3))
@@ -515,7 +542,7 @@
     (fp_text reference SW-TACT (at 0 -8.509 180) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 5.08) (layer F.SilkS) hide
+    (fp_text value "" (at 0 5.08) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -6.35 -6.35) (end 6.35 -6.35) (layer F.SilkS) (width 0.4))
@@ -539,7 +566,7 @@
     (fp_text reference RELAY-DPDT (at -0.381 3.683 360) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0.254 -3.556 180) (layer F.SilkS) hide
+    (fp_text value "" (at 0.254 -3.556 180) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -6.35 -27.686) (end 6.35 -27.686) (layer F.SilkS) (width 0.4))
@@ -566,7 +593,7 @@
     (fp_text reference TRIM-V (at 0 -5.5) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 5 1) (end 5 -4) (layer F.SilkS) (width 0.3))
@@ -588,7 +615,7 @@
     (fp_text reference TRIM-HS (at -0.254 -2.794) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 8.255) (layer F.SilkS) hide
+    (fp_text value "" (at 0 8.255) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -3.81 2.54) (end -3.81 6.35) (layer F.SilkS) (width 0.4))
@@ -610,7 +637,7 @@
     (fp_text reference TRIM-H (at -0.254 -2.667) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 6.66) (layer F.SilkS) hide
+    (fp_text value "" (at 0 6.66) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 3.81) (end -5.08 11.43) (layer F.SilkS) (width 0.4))
@@ -632,7 +659,7 @@
     (fp_text reference POT-OMEG-D (at 0 12.065 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 -5.08 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 -5.08 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 8.255 -2.54) (end 8.255 10.795) (layer F.SilkS) (width 0.4))
@@ -667,7 +694,7 @@
     (fp_text reference POT-OMEG (at 0 4.445 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 -5.08 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 -5.08 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 8.255 -2.54) (end 8.255 3.175) (layer F.SilkS) (width 0.4))
@@ -699,7 +726,7 @@
     (fp_text reference POT-16-D (at 0 8.89 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 2.54 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 2.54 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 8.255 -2.54) (end 8.255 7.62) (layer F.SilkS) (width 0.4))
@@ -733,7 +760,7 @@
     (fp_text reference POT-16 (at 0 6.985 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 3.81 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.81 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 8.255 -2.54) (end 8.255 5.71) (layer F.SilkS) (width 0.4))
@@ -764,7 +791,7 @@
     (fp_text reference POT-MIN-D (at 0 5.715 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 -3.175 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 -3.175 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 5.08 -1.905) (end 5.08 -5.08) (layer F.CrtYd) (width 0.4))
@@ -796,7 +823,7 @@
     (fp_text reference POT-MIN (at 0 3.175 270) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "" (at 0 -3.175 270) (layer F.SilkS) hide
+    (fp_text value "" (at 0 -3.175 270) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 5.08 -1.905) (end 5.08 -5.08) (layer F.CrtYd) (width 0.4))
@@ -824,7 +851,7 @@
     (fp_text reference TO220 (at 0 -4.318) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0.254 3.302) (layer F.SilkS) hide
+    (fp_text value "" (at 0.254 3.302) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 -2.667) (end 5.08 -2.667) (layer F.SilkS) (width 0.3048))
@@ -844,11 +871,11 @@
   )
 
   (module gsa:TO92L-SGD (layer F.Cu) (tedit 5A85E0F6) (tstamp 5A8747CE)
-    (at 207.264 96.52)
+    (at 207.645 95.885)
     (fp_text reference TO92L-SGD (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -866,11 +893,11 @@
   )
 
   (module gsa:TO92L-GSD (layer F.Cu) (tedit 5A85E0DE) (tstamp 5A874371)
-    (at 199.136 96.52)
+    (at 199.39 95.885)
     (fp_text reference TO92L-GSD (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -888,11 +915,11 @@
   )
 
   (module gsa:TO92L-DGS (layer F.Cu) (tedit 5A85E0C8) (tstamp 5A873F14)
-    (at 191.008 96.52)
+    (at 191.135 95.885)
     (fp_text reference TO92L-DGS (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -910,11 +937,11 @@
   )
 
   (module gsa:TO92L-EBC (layer F.Cu) (tedit 5A85E0AD) (tstamp 5A872BDD)
-    (at 180.34 96.52)
+    (at 180.34 95.885)
     (fp_text reference TO92L-EBC (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -932,11 +959,11 @@
   )
 
   (module gsa:TO92L-CBE (layer F.Cu) (tedit 5A85E093) (tstamp 5A872780)
-    (at 171.704 96.52)
+    (at 171.45 95.885)
     (fp_text reference TO92L-CBE (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -954,11 +981,11 @@
   )
 
   (module gsa:TO92L-321 (layer F.Cu) (tedit 5A85E07B) (tstamp 5A872323)
-    (at 160.528 96.52)
+    (at 160.655 95.885)
     (fp_text reference TO92L-321 (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -976,11 +1003,11 @@
   )
 
   (module gsa:TO92L (layer F.Cu) (tedit 5A85E059) (tstamp 5A871EC6)
-    (at 152.4 96.52)
+    (at 152.4 95.885)
     (fp_text reference TO92L (at 0 -3.048) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value "" (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.778 -1.778) (end 1.778 -1.778) (layer F.SilkS) (width 0.3048))
@@ -998,11 +1025,11 @@
   )
 
   (module gsa:SCREW4 (layer F.Cu) (tedit 5A8F2505) (tstamp 5A8707E3)
-    (at 72.136 172.212)
+    (at 61.976 172.212)
     (fp_text reference SCREW4 (at -0.381 -7.112) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 4term (at 0.254 6.858) (layer F.SilkS) hide
+    (fp_text value 4term (at 0.254 6.858) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -10.04 5) (end 10.04 5) (layer F.SilkS) (width 0.4))
@@ -1022,11 +1049,11 @@
   )
 
   (module gsa:SCREW3 (layer F.Cu) (tedit 5A8F2509) (tstamp 5A870383)
-    (at 51.816 172.212)
+    (at 41.656 172.212)
     (fp_text reference SCREW3 (at -0.381 -7.112) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 3term (at 0.254 6.858) (layer F.SilkS) hide
+    (fp_text value 3term (at 0.254 6.858) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -7.5 5) (end 7.5 5) (layer F.SilkS) (width 0.4))
@@ -1045,11 +1072,11 @@
   )
 
   (module gsa:SCREW2 (layer F.Cu) (tedit 5A8F250C) (tstamp 5A86FF25)
-    (at 36.068 172.212)
+    (at 25.908 172.212)
     (fp_text reference SCREW2 (at 0.127 -7.112) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 2term (at 0.127 6.858) (layer F.SilkS) hide
+    (fp_text value 2term (at 0.127 6.858) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5 5) (end 5 5) (layer F.SilkS) (width 0.4))
@@ -1066,32 +1093,12 @@
     )
   )
 
-  (module gsa:SCREW1 (layer F.Cu) (tedit 5A8F2510) (tstamp 5A86FAB9)
-    (at 24.892 172.212)
-    (fp_text reference SCREW1 (at -0.127 -7.112) (layer F.SilkS)
-      (effects (font (size 1.27 1.016) (thickness 0.254)))
-    )
-    (fp_text value 1term (at 0.508 6.858) (layer F.SilkS) hide
-      (effects (font (size 1.27 0.762) (thickness 0.1905)))
-    )
-    (fp_line (start 2.54 -5.08) (end 2.54 5.08) (layer F.SilkS) (width 0.4))
-    (fp_line (start -2.54 -5.08) (end -2.54 5.08) (layer F.SilkS) (width 0.4))
-    (fp_line (start -2.54 5.08) (end 2.54 5.08) (layer F.SilkS) (width 0.4))
-    (fp_line (start -2.54 -5.08) (end 2.54 -5.08) (layer F.SilkS) (width 0.4))
-    (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-    (model ${GSALIB}/gsa.3d/screw2.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
   (module gsa:MOLEX5 (layer F.Cu) (tedit 5A8F2502) (tstamp 5A86F4D2)
     (at 67.564 154.432)
     (fp_text reference MOLEX5 (at -0.254 -4.572) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 5pin (at 0.381 4.953) (layer F.SilkS) hide
+    (fp_text value 5pin (at 0.381 4.953) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -6.35 3.175) (end 6.35 3.175) (layer F.SilkS) (width 0.4))
@@ -1117,7 +1124,7 @@
     (fp_text reference MOLEX4 (at -0.127 -4.572) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 4pin (at -0.127 4.953) (layer F.SilkS) hide
+    (fp_text value 4pin (at -0.127 4.953) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 5.08 -1.905) (end -5.08 -1.905) (layer F.SilkS) (width 0.381))
@@ -1142,7 +1149,7 @@
     (fp_text reference MOLEX3 (at 0 -4.572) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 3pin (at 0 4.953) (layer F.SilkS) hide
+    (fp_text value 3pin (at 0 4.953) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -1.905) (end -3.81 -1.905) (layer F.SilkS) (width 0.381))
@@ -1166,7 +1173,7 @@
     (fp_text reference MOLEX2 (at 0.127 -4.572) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value 2pin (at 0.127 4.953) (layer F.SilkS) hide
+    (fp_text value 2pin (at 0.127 4.953) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.54 -1.905) (end 2.54 -1.905) (layer F.SilkS) (width 0.381))
@@ -1186,11 +1193,11 @@
   )
 
   (module gsa:LED5 (layer F.Cu) (tedit 56FEA916) (tstamp 5A86DDED)
-    (at 100.076 105.664)
+    (at 109.855 105.41)
     (fp_text reference LED5 (at 0 -4.318) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 4.318) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 4.318) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.794 -1.524) (end -2.794 1.524) (layer F.SilkS) (width 0.3048))
@@ -1206,12 +1213,7 @@
     (fp_arc (start 0 0) (end 3.175 0) (angle 90) (layer F.SilkS) (width 0.3048))
     (pad K thru_hole rect (at -1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
     (pad A thru_hole circle (at 1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-    (model ${GSALIB}/gsa.3d/led5v.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model ${GSALIB}/gsa.3d/led5h.wrl
+    (model ${GSALIB}/gsa.3d/led5v-green.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
@@ -1219,11 +1221,11 @@
   )
 
   (module gsa:LED3 (layer F.Cu) (tedit 56FEA8FF) (tstamp 5A86D985)
-    (at 91.948 105.664)
+    (at 91.44 105.41)
     (fp_text reference LED3 (at 0 -3.556) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 3mm (at 0 3.556) (layer F.SilkS) hide
+    (fp_text value 3mm (at 0 3.556) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_arc (start 0 0) (end -1.9685 -1.5875) (angle 90) (layer F.SilkS) (width 0.3048))
@@ -1243,11 +1245,6 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
-    (model ${GSALIB}/gsa.3d/led3h.wrl
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module gsa:REG79 (layer F.Cu) (tedit 5A8C8DE8) (tstamp 5A86B9BD)
@@ -1255,7 +1252,7 @@
     (fp_text reference REG79 (at 0 -4.318) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "79xx Regulator" (at 0.254 3.302) (layer F.SilkS) hide
+    (fp_text value "79xx Regulator" (at 0.254 3.302) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 -2.667) (end 5.08 -2.667) (layer F.SilkS) (width 0.3048))
@@ -1282,7 +1279,7 @@
     (fp_text reference REG78 (at 0 -4.318) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "78xx Regulator" (at 0.254 3.302) (layer F.SilkS) hide
+    (fp_text value "78xx Regulator" (at 0.254 3.302) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 -2.667) (end 4.953 -2.667) (layer F.SilkS) (width 0.3048))
@@ -1309,7 +1306,7 @@
     (fp_text reference DIL16 (at -0.381 0) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "16pin DIL" (at -0.381 6.35) (layer F.SilkS) hide
+    (fp_text value "16pin DIL" (at -0.381 6.35) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -10.16 -2.54) (end -7.62 -2.54) (layer F.SilkS) (width 0.3))
@@ -1353,7 +1350,7 @@
     (fp_text reference DIL14 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "14pin DIL" (at 0.254 6.35) (layer F.SilkS) hide
+    (fp_text value "14pin DIL" (at 0.254 6.35) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 1.27 2.54) (end 8.89 2.54) (layer F.SilkS) (width 0.3))
@@ -1392,7 +1389,7 @@
     (fp_text reference DIL8 (at 0 0) (layer F.SilkS)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
-    (fp_text value "8pin DIL" (at 0.254 6.35) (layer F.SilkS) hide
+    (fp_text value "8pin DIL" (at 0.254 6.35) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center -5.334 0) (end -5.334 0.381) (layer F.SilkS) (width 0.889))
@@ -1423,7 +1420,7 @@
     (fp_text reference ZD10 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 10mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 10mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.032 -1.27) (end -2.032 1.27) (layer F.SilkS) (width 0.3048))
@@ -1451,7 +1448,7 @@
     (fp_text reference DIODE15 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 15mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 15mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 0) (end 7.62 0) (layer F.SilkS) (width 0.3))
@@ -1475,7 +1472,7 @@
     (fp_text reference DIODE10 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 10mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 10mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.032 -1.27) (end -2.032 1.27) (layer F.SilkS) (width 0.3048))
@@ -1503,7 +1500,7 @@
     (fp_text reference DIODE5 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center -2.54 0) (end -1.27 1.27) (layer F.SilkS) (width 0.3))
@@ -1523,7 +1520,7 @@
     (fp_text reference DIODE2 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 2.5mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 2.5mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center -1.27 0) (end 0 1.27) (layer F.SilkS) (width 0.3))
@@ -1543,7 +1540,7 @@
     (fp_text reference ELEC25R (at 0 -5.08) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 25mm (at 0 4.445) (layer F.SilkS) hide
+    (fp_text value 25mm (at 0 4.445) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end 12.5 0) (layer F.SilkS) (width 0.3))
@@ -1564,7 +1561,7 @@
     (fp_text reference ELEC22R (at 0 -5.08) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 22mm (at 0 4.445) (layer F.SilkS) hide
+    (fp_text value 22mm (at 0 4.445) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end 11.43 0) (layer F.SilkS) (width 0.3))
@@ -1585,7 +1582,7 @@
     (fp_text reference ELEC10R (at 0 -6.35) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 10mm (at 0 6.35) (layer F.SilkS) hide
+    (fp_text value 10mm (at 0 6.35) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end -5.08 0) (layer F.SilkS) (width 0.3048))
@@ -1606,7 +1603,7 @@
     (fp_text reference ELEC8R (at 0 -5.08) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 8mm (at 0.635 5.08) (layer F.SilkS) hide
+    (fp_text value 8mm (at 0.635 5.08) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_text user + (at -4.064 0) (layer F.SilkS)
@@ -1627,7 +1624,7 @@
     (fp_text reference ELEC6R (at 0 -3.81) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 6mm (at 0 4.064) (layer F.SilkS) hide
+    (fp_text value 6mm (at 0 4.064) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end -2.794 0) (layer F.SilkS) (width 0.3048))
@@ -1648,7 +1645,7 @@
     (fp_text reference ELEC5R (at 0 -3.556) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 3.81) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 3.81) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end -2.54 0) (layer F.SilkS) (width 0.3048))
@@ -1669,7 +1666,7 @@
     (fp_text reference ELEC4R (at 0 -3.302) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 4mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 4mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end -1.905 0) (layer F.SilkS) (width 0.3048))
@@ -1690,7 +1687,7 @@
     (fp_text reference LINK5 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.54 0) (end 2.54 0) (layer F.SilkS) (width 0.3048))
@@ -1708,7 +1705,7 @@
     (fp_text reference LINK2 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 2.5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 2.5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.27 0) (end 1.27 0) (layer F.SilkS) (width 0.3048))
@@ -1726,7 +1723,7 @@
     (fp_text reference CAP-5-7-10 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "5/7.5/10mm leads" (at 0.635 3.175) (layer F.SilkS) hide
+    (fp_text value "5/7.5/10mm leads" (at 0.635 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 6.35 -1.905) (end 6.35 1.905) (layer F.SilkS) (width 0.3048))
@@ -1759,7 +1756,7 @@
     (fp_text reference CAP-5-7 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "5/7.5mm leads" (at 0 3.048) (layer F.SilkS) hide
+    (fp_text value "5/7.5mm leads" (at 0 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 1.905) (end 5.08 1.905) (layer F.SilkS) (width 0.3))
@@ -1786,7 +1783,7 @@
     (fp_text reference CAP1350 (at 0 -3.81) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 13x5mm (at 0 3.81) (layer F.SilkS) hide
+    (fp_text value 13x5mm (at 0 3.81) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -6.35 2.54) (end 6.35 2.54) (layer F.SilkS) (width 0.3))
@@ -1807,7 +1804,7 @@
     (fp_text reference CAP1035 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 10x3.5mm (at 0 3.048) (layer F.SilkS) hide
+    (fp_text value 10x3.5mm (at 0 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -5.08 1.905) (end 5.08 1.905) (layer F.SilkS) (width 0.3))
@@ -1828,7 +1825,7 @@
     (fp_text reference CAP750 (at 0 -3.81) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 7.5x5mm (at 0 3.81) (layer F.SilkS) hide
+    (fp_text value 7.5x5mm (at 0 3.81) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -2.54) (end 3.81 2.54) (layer F.SilkS) (width 0.3048))
@@ -1849,7 +1846,7 @@
     (fp_text reference CAP740 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 7.5x4mm (at 0.254 3.048) (layer F.SilkS) hide
+    (fp_text value 7.5x4mm (at 0.254 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -1.905) (end 3.81 1.905) (layer F.SilkS) (width 0.3048))
@@ -1870,7 +1867,7 @@
     (fp_text reference CAP735 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 7.5x3.5mm (at 0 3.048) (layer F.SilkS) hide
+    (fp_text value 7.5x3.5mm (at 0 3.048) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -1.778) (end 3.81 1.778) (layer F.SilkS) (width 0.3048))
@@ -1891,7 +1888,7 @@
     (fp_text reference CAP730 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 7.5x3mm (at 0 2.794) (layer F.SilkS) hide
+    (fp_text value 7.5x3mm (at 0 2.794) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -1.524) (end 3.81 1.524) (layer F.SilkS) (width 0.3048))
@@ -1912,7 +1909,7 @@
     (fp_text reference CAP725 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 7.5x2.5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 7.5x2.5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.81 -1.27) (end 3.81 1.27) (layer F.SilkS) (width 0.3048))
@@ -1933,7 +1930,7 @@
     (fp_text reference CAP-C25 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 2.5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 2.5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.54 -1.27) (end 2.54 -1.27) (layer F.SilkS) (width 0.3048))
@@ -1954,7 +1951,7 @@
     (fp_text reference RES20 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 20mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 20mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start 3.175 0) (end 10.16 0) (layer F.SilkS) (width 0.3048))
@@ -1977,7 +1974,7 @@
     (fp_text reference RES15 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 15mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 15mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -7.62 0) (end -3.175 0) (layer F.SilkS) (width 0.3048))
@@ -2000,7 +1997,7 @@
     (fp_text reference RES12 (at -0.635 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 12mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 12mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -3.175 1.27) (end -3.81 1.27) (layer F.SilkS) (width 0.3))
@@ -2025,7 +2022,7 @@
     (fp_text reference RES10 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 10mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 10mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -3.175 0) (end -5.08 0) (layer F.SilkS) (width 0.3048))
@@ -2048,7 +2045,7 @@
     (fp_text reference RES5 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -2.54 0) (end 2.54 0) (layer F.SilkS) (width 0.3048))
@@ -2067,7 +2064,7 @@
     (fp_text reference RES2 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 2.5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 2.5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -1.27 0) (end 1.27 0) (layer F.SilkS) (width 0.3048))
@@ -2086,63 +2083,63 @@
     (fp_text reference HOLE33 (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 3.3mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 3.3mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_circle (center 0 0) (end -1.778 -0.762) (layer F.SilkS) (width 0.3048))
     (pad H thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module gsa:PAD-XXL (layer F.Cu) (tedit 5A8F270B) (tstamp 5A86110A)
+  (module gsa:PAD-XL (layer F.Cu) (tedit 5A8F270B) (tstamp 5A86110A)
     (at 44.45 31.75)
     (fp_text reference PAD-XL (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 2.1mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 2.1mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 3.96875 3.96875) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module gsa:PAD-XL (layer F.Cu) (tedit 5A8F2705) (tstamp 5A860CB9)
+  (module gsa:PAD-L (layer F.Cu) (tedit 5A8F2705) (tstamp 5A860CB9)
     (at 38.1 31.75)
     (fp_text reference PAD-L (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 1.5mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 1.5mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 3.175 3.175) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module gsa:PAD-L (layer F.Cu) (tedit 5A8F26FC) (tstamp 5A860868)
+  (module gsa:PAD-M (layer F.Cu) (tedit 5A8F26FC) (tstamp 5A860868)
     (at 31.75 31.75)
     (fp_text reference PAD-M (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 1.3mm (at 0 3.175) (layer F.SilkS) hide
+    (fp_text value 1.3mm (at 0 3.175) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 2.778125 2.778125) (drill 1.3) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module gsa:PAD-M (layer F.Cu) (tedit 5A8F26F7) (tstamp 5A860417)
+  (module gsa:PAD-S (layer F.Cu) (tedit 5A8F26F7) (tstamp 5A860417)
     (at 25.4 31.75)
     (fp_text reference PAD-S (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 1mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 1mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 1.984375 1.984375) (drill 1) (layers *.Cu *.Mask F.SilkS))
   )
 
-  (module gsa:PAD-S (layer F.Cu) (tedit 5A8F26EC) (tstamp 5A85FFC6)
+  (module gsa:PAD-T (layer F.Cu) (tedit 5A9A9110) (tstamp 5A85FFC6)
     (at 19.05 31.75)
     (fp_text reference PAD-T (at 0 -3.175) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 0.7mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 0.7mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (pad 1 thru_hole circle (at 0 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
@@ -2151,7 +2148,7 @@
   (module gsa:BR-H10 (layer F.Cu) (tedit 5A8F247E) (tstamp 5A86C4EA)
     (at 26.924 125.984)
     (tags BRIDGE)
-    (fp_text reference "" (at 0 3.81) (layer F.SilkS) hide
+    (fp_text reference "" (at 0 3.81) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_text value BR-H10 (at 0.381 -5.969) (layer F.SilkS)
@@ -2179,7 +2176,7 @@
   (module gsa:BR-H15 (layer F.Cu) (tedit 5A8F24A9) (tstamp 5A86C94E)
     (at 44.196 130.048)
     (tags BRIDGE)
-    (fp_text reference "" (at 0 5.08) (layer F.SilkS) hide
+    (fp_text reference "" (at 0 5.08) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_text value BR-H15 (at 0.254 -10.033) (layer F.SilkS)
@@ -2211,7 +2208,7 @@
 
   (module gsa:BR-SIL (layer F.Cu) (tedit 5A8F24AD) (tstamp 5A86CDB9)
     (at 66.675 124.46)
-    (fp_text reference "" (at 0 -1.27) (layer F.SilkS) hide
+    (fp_text reference "" (at 0 -1.27) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_text value BR-SIL (at 0.127 -3.937) (layer F.SilkS)
@@ -2256,7 +2253,7 @@
     (fp_text reference BR-SIL2 (at -5.08 -3.81) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value "" (at 0 -0.635) (layer F.SilkS) hide
+    (fp_text value "" (at 0 -0.635) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -16.51 2.54) (end 13.97 2.54) (layer F.SilkS) (width 0.4))
@@ -2295,7 +2292,7 @@
 
   (module gsa:TO220-15 (layer F.Cu) (tedit 5A8F25CE) (tstamp 5A86BE30)
     (at 162.052 51.816)
-    (fp_text reference "15pin TO220" (at 0 8.255) (layer F.SilkS) hide
+    (fp_text reference "15pin TO220" (at 0 8.255) (layer Dwgs.User)
       (effects (font (size 1.27 1.016) (thickness 0.254)))
     )
     (fp_text value TO220-15 (at 0 2.54) (layer F.SilkS)
@@ -2343,7 +2340,7 @@
     (fp_text reference CAP-C50 (at 0 -2.54) (layer F.SilkS)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
-    (fp_text value 5mm (at 0 2.54) (layer F.SilkS) hide
+    (fp_text value 5mm (at 0 2.54) (layer Dwgs.User)
       (effects (font (size 1.27 0.762) (thickness 0.1905)))
     )
     (fp_line (start -3.81 -1.27) (end 3.81 -1.27) (layer F.SilkS) (width 0.3048))
@@ -2353,6 +2350,28 @@
     (pad 1 thru_hole circle (at -2.54 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
     (pad 2 thru_hole circle (at 2.54 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
     (model ${GSALIB}/gsa.3d/cap-c10.wrl
+      (at (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
+  )
+
+  (module gsa:TO92F-GSD (layer F.Cu) (tedit 5A9A9DC2) (tstamp 5A873606)
+    (at 199.39 88.265)
+    (fp_text reference TO92F-GSD (at 0 -3.429) (layer F.SilkS)
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_text value "" (at 0 2.921) (layer F.SilkS) hide
+      (effects (font (size 1.27 0.762) (thickness 0.1905)))
+    )
+    (fp_line (start -1.778 -2.413) (end 1.778 -2.413) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 -0.635) (end -1.778 1.143) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 -0.635) (end 1.778 -2.413) (angle 90) (layer F.SilkS) (width 0.3048))
+    (fp_arc (start 0 -0.635) (end 1.778 1.143) (angle 90) (layer F.SilkS) (width 0.3048))
+    (pad S thru_hole circle (at 0 0.635) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (pad G thru_hole circle (at 1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (pad D thru_hole circle (at -1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+    (model ${GSALIB}/gsa.3d/to92f.wrl
       (at (xyz 0 0 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))

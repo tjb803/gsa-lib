@@ -18,12 +18,7 @@
   (fp_arc (start 0 0) (end 3.175 0) (angle 90) (layer F.SilkS) (width 0.3048))
   (pad K thru_hole rect (at -1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (pad A thru_hole circle (at 1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/led5v.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model ${GSALIB}/gsa.3d/led5h.wrl
+  (model ${GSALIB}/gsa.3d/led5v-green.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

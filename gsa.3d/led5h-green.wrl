@@ -461,8 +461,8 @@ DEF cylinder6_sep3 Transform {
     Shape {
       appearance Appearance {
         material DEF body Material {
-          diffuseColor 1.0 0.0 0.0
-          emissiveColor 1.0 0.0 0.0
+          diffuseColor 0.0 1.0 0.06382978723404258
+          emissiveColor 0.0 1.0 0.1111111111111111
           specularColor 1.0 1.0 1.0
           ambientIntensity 1.0
           transparency 0.0
