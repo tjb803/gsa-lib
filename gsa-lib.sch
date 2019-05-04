@@ -1,21 +1,21 @@
-EESchema Schematic File Version 2
-LIBS:gsa
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:gsa-lib-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "GSA Schematic Library"
-Date "January 2018"
-Rev "1.0.0"
+Date "January 2019"
+Rev "1.0.1"
 Comp "Gemstone Amplification"
-Comment1 "© Tim Baldwin 2016,2018"
+Comment1 "© Tim Baldwin 2016,2019"
 Comment2 ""
 Comment3 ""
 Comment4 "Schematic Symbols"
 $EndDescr
 $Comp
-L 4017 U?
+L gsa:4017 U?
 U 1 1 5A8F3386
 P 6700 1650
 F 0 "U?" H 6700 2000 60  0001 C CNN
@@ -26,7 +26,7 @@ F 3 "" H 6800 1575 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4066 U?
+L gsa:4066 U?
 U 1 1 5A8F340F
 P 7350 1650
 F 0 "U?" H 7350 2000 60  0001 C CNN
@@ -37,7 +37,7 @@ F 3 "" H 7450 1450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 741 U?
+L gsa:741 U?
 U 1 1 5A8F34D3
 P 8750 2000
 F 0 "U?" H 8645 2045 60  0001 C CNN
@@ -48,7 +48,7 @@ F 3 "" H 8750 2000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP C?
+L gsa:CAP C?
 U 1 1 5A8F35EB
 P 2300 1850
 F 0 "C?" H 2400 1950 60  0001 C CNN
@@ -59,7 +59,7 @@ F 3 "" H 2300 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CAP-P C?
+L gsa:CAP-P C?
 U 1 1 5A8F364A
 P 2650 1850
 F 0 "C?" H 2750 1950 60  0001 C CNN
@@ -70,7 +70,7 @@ F 3 "" H 2650 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-1 J?
+L gsa:CONN-1 J?
 U 1 1 5A8F36D3
 P 4200 1000
 F 0 "J?" H 4425 1000 60  0001 C CNN
@@ -81,7 +81,7 @@ F 3 "" H 4200 900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-2 J?
+L gsa:CONN-2 J?
 U 1 1 5A8F3784
 P 4800 1000
 F 0 "J?" H 5025 1050 60  0001 C CNN
@@ -92,7 +92,7 @@ F 3 "" H 4800 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-3 J?
+L gsa:CONN-3 J?
 U 1 1 5A8F3805
 P 4200 1650
 F 0 "J?" H 4425 1650 60  0001 C CNN
@@ -103,7 +103,7 @@ F 3 "" H 4200 1650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-4 J?
+L gsa:CONN-4 J?
 U 1 1 5A8F3858
 P 4800 1550
 F 0 "J?" H 5025 1500 60  0001 C CNN
@@ -114,7 +114,7 @@ F 3 "" H 4800 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN-5 J?
+L gsa:CONN-5 J?
 U 1 1 5A8F38D9
 P 5400 1500
 F 0 "J?" H 5625 1450 60  0001 C CNN
@@ -125,7 +125,7 @@ F 3 "" H 5400 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DIODE D?
+L gsa:DIODE D?
 U 1 1 5A8F3942
 P 900 2700
 F 0 "D?" H 925 2825 60  0001 C CNN
@@ -136,7 +136,7 @@ F 3 "" H 900 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L DPDT SW?
+L gsa:DPDT SW?
 U 1 1 5A8F39ED
 P 2650 5500
 F 0 "SW?" H 2500 5500 60  0001 C CNN
@@ -147,7 +147,7 @@ F 3 "" H 2640 5690 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L EARTH GND?
+L gsa:EARTH GND?
 U 1 1 5A8F3BDA
 P 850 900
 F 0 "GND?" H 990 820 60  0001 C CNN
@@ -158,7 +158,7 @@ F 3 "" H 850 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FUSE F?
+L gsa:FUSE F?
 U 1 1 5A8F3C0E
 P 2450 1100
 F 0 "F?" H 2450 1200 60  0001 C CNN
@@ -169,7 +169,7 @@ F 3 "" V 2450 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND GND?
+L gsa:GND GND?
 U 1 1 5A8F3CA5
 P 1250 900
 F 0 "GND?" H 1390 820 60  0001 C CNN
@@ -180,7 +180,7 @@ F 3 "" H 1250 700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L HOLE H?
+L gsa:HOLE H?
 U 1 1 5A8F3CDB
 P 3300 1000
 F 0 "H?" H 3300 1150 60  0001 C CNN
@@ -191,7 +191,7 @@ F 3 "" H 3300 1000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED LED
+L gsa:LED LED
 U 1 1 5A8F3D22
 P 1900 2700
 F 0 "LED" H 1925 2575 60  0000 C CNN
@@ -202,7 +202,7 @@ F 3 "" H 1900 2700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LINK X?
+L gsa:LINK X?
 U 1 1 5A8F3DA3
 P 750 1850
 F 0 "X?" H 850 1900 60  0001 C CNN
@@ -213,7 +213,7 @@ F 3 "" H 750 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1875 U?
+L gsa:LM1875 U?
 U 1 1 5A8F3E65
 P 6950 5850
 F 0 "U?" H 6875 5925 60  0001 C CNN
@@ -224,7 +224,7 @@ F 3 "" H 6950 5425 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM1876 U?
+L gsa:LM1876 U?
 U 1 1 5A8F3F6A
 P 8200 5300
 F 0 "U?" H 8350 6050 60  0001 C CNN
@@ -235,7 +235,7 @@ F 3 "" H 8200 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM317 U?
+L gsa:LM317 U?
 U 1 1 5A8F400B
 P 7700 2900
 F 0 "U?" H 7700 2950 60  0001 C CNN
@@ -246,7 +246,7 @@ F 3 "" H 7700 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM386 U?
+L gsa:LM386 U?
 U 1 1 5A8F40AC
 P 6950 4750
 F 0 "U?" H 6830 4800 60  0001 C CNN
@@ -257,7 +257,7 @@ F 3 "" H 6950 4750 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM377 U?
+L gsa:LM377 U?
 U 1 1 5A8F4141
 P 7700 3500
 F 0 "U?" H 7690 3565 60  0001 C CNN
@@ -268,7 +268,7 @@ F 3 "" H 7700 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM78XX U?
+L gsa:LM78XX U?
 U 1 1 5A8F4204
 P 6850 2900
 F 0 "U?" H 6850 2950 60  0001 C CNN
@@ -279,7 +279,7 @@ F 3 "" H 6850 2900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L LM79XX U?
+L gsa:LM79XX U?
 U 1 1 5A8F42A3
 P 6850 3500
 F 0 "U?" H 6850 3550 60  0001 C CNN
@@ -290,7 +290,7 @@ F 3 "" H 6850 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L N-JFET Q?
+L gsa:N-JFET Q?
 U 1 1 5A8F4376
 P 1550 3500
 F 0 "Q?" H 1700 3650 60  0001 C CNN
@@ -301,7 +301,7 @@ F 3 "" H 1550 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NE555 U?
+L gsa:NE555 U?
 U 1 1 5A8F43F7
 P 10300 1200
 F 0 "U?" H 10300 1300 60  0001 C CNN
@@ -312,7 +312,7 @@ F 3 "" H 10300 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NMOS-D Q?
+L gsa:NMOS-D Q?
 U 1 1 5A8F44CE
 P 2250 3500
 F 0 "Q?" H 2440 3650 60  0001 C CNN
@@ -323,7 +323,7 @@ F 3 "" H 2250 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NMOS-E Q?
+L gsa:NMOS-E Q?
 U 1 1 5A8F4559
 P 3000 3500
 F 0 "Q?" H 3190 3650 60  0001 C CNN
@@ -334,7 +334,7 @@ F 3 "" H 3000 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L NPN Q?
+L gsa:NPN Q?
 U 1 1 5A8F4612
 P 950 3500
 F 0 "Q?" H 1140 3650 60  0001 C CNN
@@ -345,7 +345,7 @@ F 3 "" H 950 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L OPAMP U?
+L gsa:OPAMP U?
 U 1 1 5A8F46A9
 P 8750 1200
 F 0 "U?" H 8645 1245 60  0001 C CNN
@@ -356,7 +356,7 @@ F 3 "" H 8750 1200 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L P-JFET Q?
+L gsa:P-JFET Q?
 U 1 1 5A8F48D1
 P 1550 4000
 F 0 "Q?" H 1700 4150 60  0001 C CNN
@@ -367,7 +367,7 @@ F 3 "" H 1550 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMOS-D Q?
+L gsa:PMOS-D Q?
 U 1 1 5A8F49FE
 P 2250 4000
 F 0 "Q?" H 2440 4150 60  0001 C CNN
@@ -378,7 +378,7 @@ F 3 "" H 2250 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PMOS-E Q?
+L gsa:PMOS-E Q?
 U 1 1 5A8F4BA5
 P 3000 4000
 F 0 "Q?" H 3190 4150 60  0001 C CNN
@@ -389,7 +389,7 @@ F 3 "" H 3000 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PNP Q?
+L gsa:PNP Q?
 U 1 1 5A8F4C98
 P 950 4000
 F 0 "Q?" H 1140 4150 60  0001 C CNN
@@ -400,7 +400,7 @@ F 3 "" H 950 4000 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POT VR?
+L gsa:POT VR?
 U 1 1 5A8F4D9A
 P 1900 1850
 F 0 "VR?" H 2025 1975 60  0001 C CNN
@@ -411,7 +411,7 @@ F 3 "" H 1900 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L POWER V?
+L gsa:POWER V?
 U 1 1 5A8F5493
 P 1600 1200
 F 0 "V?" H 1750 1400 60  0001 C CNN
@@ -422,7 +422,7 @@ F 3 "" H 1600 1400 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L PWR_FLAG #FLG?
+L gsa:PWR_FLAG #FLG?
 U 1 1 5A8F56BB
 P 2000 1150
 F 0 "#FLG?" H 2000 1245 50  0001 C CNN
@@ -433,7 +433,7 @@ F 3 "" H 2000 1150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RELAY-DPDT RL?
+L gsa:RELAY-DPDT RL?
 U 1 1 5A8F57B3
 P 2000 6700
 F 0 "RL?" H 2250 7100 60  0001 C CNN
@@ -444,7 +444,7 @@ F 3 "" H 2350 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RELAY-SPDT RL?
+L gsa:RELAY-SPDT RL?
 U 1 1 5A8F5882
 P 1100 6700
 F 0 "RL?" H 1170 7100 60  0001 C CNN
@@ -455,7 +455,7 @@ F 3 "" H 1450 6300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L RES R?
+L gsa:RES R?
 U 1 1 5A8F5927
 P 1000 1850
 F 0 "R?" H 1120 1910 60  0001 C CNN
@@ -466,7 +466,7 @@ F 3 "" H 1000 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L REZ R?
+L gsa:REZ R?
 U 1 1 5A8F5B46
 P 1300 1850
 F 0 "R?" H 1420 1910 60  0001 C CNN
@@ -477,7 +477,7 @@ F 3 "" H 1290 1855 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SP-PUSH SW?
+L gsa:SP-PUSH SW?
 U 1 1 5A8F5BF7
 P 1100 4800
 F 0 "SW?" H 1100 4750 60  0001 C CNN
@@ -488,7 +488,7 @@ F 3 "" H 1100 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SP2T SW?
+L gsa:SP2T SW?
 U 1 1 5A8F5CB0
 P 3450 4800
 F 0 "SW?" H 3350 4900 60  0001 C CNN
@@ -499,7 +499,7 @@ F 3 "" H 3450 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SP3T SW?
+L gsa:SP3T SW?
 U 1 1 5A8F5D5D
 P 3450 5450
 F 0 "SW?" H 3350 5550 60  0001 C CNN
@@ -510,7 +510,7 @@ F 3 "" H 3450 5450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPDT SW?
+L gsa:SPDT SW?
 U 1 1 5A8F6176
 P 2650 4800
 F 0 "SW?" H 2550 4900 60  0001 C CNN
@@ -521,7 +521,7 @@ F 3 "" H 2650 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPST SW?
+L gsa:SPST SW?
 U 1 1 5A8F620B
 P 1850 4800
 F 0 "SW?" H 1750 4900 60  0001 C CNN
@@ -532,7 +532,7 @@ F 3 "" H 1850 4800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L TDA2009 U?
+L gsa:TDA2009 U?
 U 1 1 5A8F62FA
 P 9550 5350
 F 0 "U?" H 9700 5900 60  0001 C CNN
@@ -543,7 +543,7 @@ F 3 "" H 9550 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VR VR?
+L gsa:VR VR?
 U 1 1 5A8F63A9
 P 1600 1850
 F 0 "VR?" H 1750 2000 60  0001 C CNN
@@ -554,7 +554,7 @@ F 3 "" H 1600 1850 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XFRMR TX?
+L gsa:XFRMR TX?
 U 1 1 5A8F64C2
 P 4050 6900
 F 0 "TX?" H 4050 7300 60  0001 C CNN
@@ -565,7 +565,7 @@ F 3 "" H 4400 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XFRMR-C TX?
+L gsa:XFRMR-C TX?
 U 1 1 5A8F6591
 P 4950 6900
 F 0 "TX?" H 4950 7450 60  0001 C CNN
@@ -576,7 +576,7 @@ F 3 "" H 5300 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L XFRMR-D TX?
+L gsa:XFRMR-D TX?
 U 1 1 5A8F6658
 P 5800 6900
 F 0 "TX?" H 5800 7450 60  0001 C CNN
@@ -587,7 +587,7 @@ F 3 "" H 6150 6500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZENER ZD?
+L gsa:ZENER ZD?
 U 1 1 5A8F6725
 P 1400 2700
 F 0 "ZD?" H 1425 2850 60  0001 C CNN
@@ -600,7 +600,7 @@ $EndComp
 Text Notes 650  1550 0    60   ~ 0
 Passives
 $Comp
-L BRIDGE BR?
+L gsa:BRIDGE BR?
 U 1 1 5A8FA025
 P 2600 2700
 F 0 "BR?" H 2730 2410 60  0001 C CNN
@@ -631,7 +631,7 @@ Logic
 Text Notes 8300 750  0    60   ~ 0
 Op Amps
 $Comp
-L 40106 U?
+L gsa:40106 U?
 U 1 1 5A8FFB7C
 P 6600 950
 F 0 "U?" H 6650 825 60  0001 C CNN
@@ -642,7 +642,7 @@ F 3 "" H 6570 955 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 4093 U?
+L gsa:4093 U?
 U 1 1 5A8FFBC9
 P 7150 950
 F 0 "U?" H 7200 800 60  0001 C CNN
@@ -659,7 +659,7 @@ Audio
 Text Notes 6400 2600 0    60   ~ 0
 Voltage Regulators
 $Comp
-L DPST SW?
+L gsa:DPST SW?
 U 1 1 5A9011BD
 P 1850 5500
 F 0 "SW?" H 1700 5500 60  0001 C CNN

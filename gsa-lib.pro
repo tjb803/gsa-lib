@@ -1,6 +1,6 @@
-update=03/03/2018 12:18:51
+update=Sat 04 May 2019 11:07:48 BST
 version=1
-last_client=eeschema
+last_client=kicad
 [general]
 version=1
 RootSch=
@@ -30,15 +30,13 @@ NetIExt=net
 [eeschema]
 version=1
 LibDir=
-[eeschema/libraries]
-LibName1=gsa.lib/gsa
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=docs/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
+SpiceAjustPassiveValues=0
 LabSize=60
+ERC_TestSimilarLabels=1
