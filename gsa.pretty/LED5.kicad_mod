@@ -1,4 +1,4 @@
-(module LED5 (layer F.Cu) (tedit 56FEA916)
+(module LED5 (layer F.Cu) (tedit 5DDA6539)
   (fp_text reference LED5 (at 0 -4.318) (layer F.SilkS)
     (effects (font (size 1.27 0.762) (thickness 0.1905)))
   )
@@ -16,8 +16,8 @@
   (fp_arc (start 0 0) (end 2.54 0) (angle 90) (layer F.SilkS) (width 0.3048))
   (fp_arc (start 0 0) (end 0 -3.175) (angle 90) (layer F.SilkS) (width 0.3048))
   (fp_arc (start 0 0) (end 3.175 0) (angle 90) (layer F.SilkS) (width 0.3048))
-  (pad K thru_hole rect (at -1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad A thru_hole circle (at 1.27 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad K thru_hole roundrect (at -1.27 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
+  (pad A thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (model ${GSALIB}/gsa.3d/led5v-green.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

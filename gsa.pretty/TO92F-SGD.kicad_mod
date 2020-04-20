@@ -9,9 +9,9 @@
   (fp_arc (start 0 -0.635) (end -1.778 1.143) (angle 90) (layer F.SilkS) (width 0.3048))
   (fp_arc (start 0 -0.635) (end 1.778 -2.413) (angle 90) (layer F.SilkS) (width 0.3048))
   (fp_arc (start 0 -0.635) (end 1.778 1.143) (angle 90) (layer F.SilkS) (width 0.3048))
-  (pad G thru_hole circle (at 0 0.635) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad S thru_hole circle (at 1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad D thru_hole circle (at -1.27 -1.27) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad G thru_hole circle (at 0 0.635) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad S thru_hole circle (at 1.27 -1.27) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad D thru_hole circle (at -1.27 -1.27) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (model ${GSALIB}/gsa.3d/to92f.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

@@ -1,4 +1,4 @@
-(module CAP730 (layer F.Cu) (tedit 567057C7)
+(module CAP730 (layer F.Cu) (tedit 5CCDA440)
   (fp_text reference CAP730 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 0.762) (thickness 0.1905)))
   )
@@ -9,8 +9,8 @@
   (fp_line (start -3.81 -1.524) (end -3.81 1.524) (layer F.SilkS) (width 0.3048))
   (fp_line (start 3.81 1.524) (end -3.81 1.524) (layer F.SilkS) (width 0.3048))
   (fp_line (start -3.81 -1.524) (end 3.81 -1.524) (layer F.SilkS) (width 0.3048))
-  (pad 1 thru_hole circle (at -2.54 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 2.54 0) (size 1.5875 1.5875) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at -2.54 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
+  (pad 2 thru_hole circle (at 2.54 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
   (model ${GSALIB}/gsa.3d/cap730.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

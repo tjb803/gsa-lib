@@ -1,3 +1,6 @@
+_autosave-*
 *.bak
+*.sch-bak
 *.kicad_pcb-bak
 *.wings~
+*.wings#

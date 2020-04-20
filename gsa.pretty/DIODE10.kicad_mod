@@ -1,4 +1,4 @@
-(module DIODE10 (layer F.Cu) (tedit 56FEA948)
+(module DIODE10 (layer F.Cu) (tedit 5DDA64E4)
   (fp_text reference DIODE10 (at 0 0) (layer F.SilkS)
     (effects (font (size 1.27 0.762) (thickness 0.1905)))
   )
@@ -16,8 +16,8 @@
   (fp_line (start 3.175 1.27) (end -3.175 1.27) (layer F.SilkS) (width 0.3048))
   (fp_line (start -3.175 1.27) (end -3.175 -1.27) (layer F.SilkS) (width 0.3048))
   (fp_line (start -3.175 -1.27) (end 3.175 -1.27) (layer F.SilkS) (width 0.3048))
-  (pad A thru_hole circle (at 5.08 0) (size 1.984375 1.984375) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad K thru_hole rect (at -5.08 0) (size 1.984375 1.984375) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad A thru_hole circle (at 5.08 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad K thru_hole roundrect (at -5.08 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
   (model ${GSALIB}/gsa.3d/diode10.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

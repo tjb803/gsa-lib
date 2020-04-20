@@ -1,4 +1,4 @@
-(module MOLEX1 (layer F.Cu) (tedit 56BF6745)
+(module MOLEX1 (layer F.Cu) (tedit 5DDA654F)
   (fp_text reference MOLEX1 (at 0 1.905) (layer F.SilkS)
     (effects (font (size 1.27 1.016) (thickness 0.254)))
   )
@@ -12,7 +12,7 @@
   (fp_line (start -1.27 3.175) (end -1.27 -1.27) (layer F.SilkS) (width 0.381))
   (fp_line (start -1.27 -1.27) (end -1.27 -3.175) (layer F.SilkS) (width 0.381))
   (fp_line (start 1.27 -3.175) (end 1.27 -1.27) (layer F.SilkS) (width 0.381))
-  (pad 1 thru_hole rect (at 0 0) (size 1.984375 2.3749) (drill 1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole roundrect (at 0 0 180) (size 2.032 2.413) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
   (model ${GSALIB}/gsa.3d/conn1.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

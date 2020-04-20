@@ -1,9 +1,9 @@
-(module PAD-XL (layer F.Cu) (tedit 5A8F27A6)
+(module PAD-XL (layer F.Cu) (tedit 5DDA62BC)
   (fp_text reference PAD-XL (at 0 -2.794) (layer F.SilkS)
     (effects (font (size 1.27 0.762) (thickness 0.1905)))
   )
   (fp_text value VAL** (at 0 3.048) (layer F.SilkS) hide
     (effects (font (size 1.27 0.762) (thickness 0.1905)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 3.96875 3.96875) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
+  (pad 1 thru_hole circle (at 0 0) (size 3.81 3.81) (drill 2.1) (layers *.Cu *.Mask F.SilkS))
 )

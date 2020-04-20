@@ -1,8 +1,0 @@
-(module NONE (layer F.Cu) (tedit 5A84B81D)
-  (fp_text reference REF** (at 0 1.016) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value NONE (at 0 -0.762) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-)
