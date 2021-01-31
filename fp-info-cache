@@ -1,15 +1,15 @@
-165265006398315
+176582440380315
 gsa
 BR-H10
 
-BRIDGE
+
 0
 4
 4
 gsa
 BR-H15
 
-BRIDGE
+
 0
 4
 4
@@ -28,18 +28,11 @@ BR-SIL2
 4
 4
 gsa
-CAP-5-7
+CAP-7-10
 
 
 0
 3
-2
-gsa
-CAP-5-7-10
-
-
-0
-4
 2
 gsa
 CAP-C25
@@ -98,7 +91,7 @@ CAP1035
 2
 2
 gsa
-CAP1350
+CAP1070
 
 
 0
@@ -141,13 +134,6 @@ DIODE5
 2
 gsa
 DIODE10
-
-
-0
-2
-2
-gsa
-DIODE15
 
 
 0
@@ -204,6 +190,13 @@ ELEC25R
 2
 gsa
 HOLE33
+
+
+0
+1
+0
+gsa
+HOLE33-G
 
 
 0
@@ -308,35 +301,35 @@ MOLEX5
 5
 5
 gsa
-PAD-L
+PAD07
 
 
 0
 1
 1
 gsa
-PAD-M
+PAD10
 
 
 0
 1
 1
 gsa
-PAD-S
+PAD13
 
 
 0
 1
 1
 gsa
-PAD-XL
+PAD15
 
 
 0
 1
 1
 gsa
-PAD-XS
+PAD21
 
 
 0
@@ -397,21 +390,49 @@ POT-SNAP-H
 
 0
 5
-3
+4
 gsa
 POT-SNAP-V
 
 
 0
 5
-3
+4
 gsa
-POT-TRIM-H
+POT-TRIM-HR
 
 
 0
-6
-3
+10
+4
+gsa
+RECT2
+
+
+0
+2
+2
+gsa
+RECT5
+
+
+0
+2
+2
+gsa
+RECT10
+
+
+0
+2
+2
+gsa
+RECT15
+
+
+0
+2
+2
 gsa
 REG78
 
@@ -442,6 +463,13 @@ RES2
 2
 gsa
 RES5
+
+
+0
+2
+2
+gsa
+RES8
 
 
 0
@@ -504,14 +532,28 @@ SOIC8
 8
 8
 gsa
-SOT23-BCE
+SOT23
 
 
 0
 3
 3
 gsa
-SOT23-DGS
+SOT23-BEC
+
+
+0
+3
+3
+gsa
+SOT23-DSG
+
+
+0
+3
+3
+gsa
+SOT23-GSD
 
 
 0
@@ -523,9 +565,16 @@ SW-DPDT-H2
 
 0
 8
-6
+7
 gsa
-SW-PUSH
+SW-DPDT-V2
+
+
+0
+8
+7
+gsa
+SW-PUSH1
 
 
 0
@@ -544,14 +593,14 @@ SW-SPDT-H2
 
 0
 5
-3
+4
 gsa
 SW-SPDT-V2
 
 
 0
 5
-3
+4
 gsa
 SW-TACT
 
@@ -560,7 +609,7 @@ SW-TACT
 4
 2
 gsa
-SW-TACT2
+SW-TACT-ALL
 
 
 0
@@ -568,13 +617,6 @@ SW-TACT2
 2
 gsa
 TO92F
-
-
-0
-3
-3
-gsa
-TO92F-321
 
 
 0
@@ -609,6 +651,13 @@ TO92F-EBC
 3
 3
 gsa
+TO92F-ECB
+
+
+0
+3
+3
+gsa
 TO92F-GSD
 
 
@@ -616,21 +665,7 @@ TO92F-GSD
 3
 3
 gsa
-TO92F-SGD
-
-
-0
-3
-3
-gsa
 TO92L
-
-
-0
-3
-3
-gsa
-TO92L-321
 
 
 0
@@ -665,14 +700,14 @@ TO92L-EBC
 3
 3
 gsa
-TO92L-GSD
+TO92L-ECB
 
 
 0
 3
 3
 gsa
-TO92L-SGD
+TO92L-GSD
 
 
 0
@@ -685,6 +720,20 @@ TO220
 0
 3
 3
+gsa
+TO220-5
+
+
+0
+5
+5
+gsa
+TO220-11
+
+
+0
+11
+11
 gsa
 TO220-15
 
@@ -727,10 +776,3 @@ TRIM-VS
 0
 3
 3
-gsa
-ZENER10
-
-
-0
-2
-2

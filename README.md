@@ -30,9 +30,18 @@ version 5.0 or later.
    The directory containing the footprints
   
 * `gsa.3d/`  
-   The directory containing the 3D models
+   The directory containing the 3D component models
    * `gsa.3d/wings/`  
      The Wings-3D projects used to generate the models
+
+* `gsa.docs/`  
+   A directory with the associated documents
+   * `gsa-lib.pdf`  
+      Summary of all the schematic symbols
+   * `gsa-footprints.pdf`  
+      Summary of all the PCB footprints
+   * `gsa-3d.jpg` and `gsa-3d.pdf`  
+      Summary of all the 3D component models
 
 ### Installation
 
@@ -44,9 +53,16 @@ git clone https://github.com/tjb803/gsa-lib.git
 
 From the KiCad Project Manager select _Preferences_/_Configure Paths_
 and add a variable called `GSALIB` that points to the cloned `gsa-lib`
-directory. You should close and restart KiCad after doing this to
-ensure the new variable is accessible.  It is important to set this variable
-to ensure the libraries and the 3D models will always be found.
+directory. It might look something like this:
+
+| Name | Path |
+| ---- | ---- |
+| GSALIB | /home/baldwin/GSA/gsa-lib |
+| ... | ... |
+
+You should close and restart KiCad after doing this to ensure the 
+new variable is accessible.  It is important to set this variable
+so that the libraries and the 3D models will always be found.
 
 ### Usage
 

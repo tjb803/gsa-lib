@@ -1,9 +1,0 @@
-(module PAD-S (layer F.Cu) (tedit 5CCDA077)
-  (fp_text reference PAD-S (at 0 -1.905) (layer F.SilkS)
-    (effects (font (size 1.27 0.762) (thickness 0.1905)))
-  )
-  (fp_text value VAL** (at 0 1.905) (layer F.SilkS) hide
-    (effects (font (size 1.27 0.762) (thickness 0.1905)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-)
