@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "GSA")(type "KiCad")(uri "${GSALIB}/gsa.pretty")(options "")(descr ""))
+)

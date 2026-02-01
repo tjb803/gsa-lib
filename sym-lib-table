@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GSA")(type "KiCad")(uri "${GSALIB}/gsa.lib/gsa.kicad_sym")(options "")(descr ""))
+)

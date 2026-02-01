@@ -14,10 +14,10 @@ version 6.0 or later, but are mostly tested with version 9.
 * `gsa-lib.kicad_pro`  
    The KiCad project file for the library
 
-* `gsa-lib.kicad_sch`  
+* `gsa-lib.kicad_sch` and `sym-lib-table`  
    A KiCad schematic showing all the available symbols
 
-* `gsa-lib.kicad_pcb`  
+* `gsa-lib.kicad_pcb` and `fp-lib-table`  
    A KiCad PCB showing all the available footprints
   
 * `gsa.kicad_wks`  
