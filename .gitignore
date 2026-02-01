@@ -1,5 +1,7 @@
 gsa-lib-backups/
 sym-lib-table
+fp-lib-table
+fp-info-cache
 ~*.lck
 *.wings~
 *.wings#

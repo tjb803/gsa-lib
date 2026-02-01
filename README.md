@@ -17,7 +17,7 @@ version 6.0 or later, but are mostly tested with version 9.
 * `gsa-lib.kicad_sch`  
    A KiCad schematic showing all the available symbols
 
-* `gsa-lib.kicad_pcb` and `fp-lib-table`  
+* `gsa-lib.kicad_pcb`  
    A KiCad PCB showing all the available footprints
   
 * `gsa.kicad_wks`  
@@ -57,7 +57,7 @@ directory. It might look something like this:
 
 | Name | Path |
 | ---- | ---- |
-| GSALIB | /home/baldwin/GSA/gsa-lib |
+| GSALIB | /home/your_username/GSA/gsa-lib |
 | ... | ... |
 
 You should close and restart KiCad after doing this to ensure the 
