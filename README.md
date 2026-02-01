@@ -7,14 +7,14 @@ and 3D models for all the components used in the GSA
 projects.
 
 This library and support files are intended to work with KiCad
-version 5.0 or later.
+version 6.0 or later, but are mostly tested with version 9.
 
 ### Contents
 
-* `gsa-lib.pro`  
+* `gsa-lib.kicad_pro`  
    The KiCad project file for the library
 
-* `gsa-lib.sch`, `gsa-lib-cache.lib` and `sym-lib-table`  
+* `gsa-lib.kicad_sch`  
    A KiCad schematic showing all the available symbols
 
 * `gsa-lib.kicad_pcb` and `fp-lib-table`  

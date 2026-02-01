@@ -1,6 +1,5 @@
-_autosave-*
-*.bak
-*.sch-bak
-*.kicad_pcb-bak
+gsa-lib-backups/
+sym-lib-table
+~*.lck
 *.wings~
 *.wings#
