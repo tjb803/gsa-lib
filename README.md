@@ -11,7 +11,7 @@ version 6.0 or later, but are mostly tested with version 9.
 
 ### Contents
 
-* `gsa-lib.kicad_pro`  
+* `gsa-lib.kicad_pro` and `gsa-lib.kicad_prl`  
    The KiCad project file for the library
 
 * `gsa-lib.kicad_sch` and `sym-lib-table`  
