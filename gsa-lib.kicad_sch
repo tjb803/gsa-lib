@@ -6,13 +6,210 @@
 	(paper "A4")
 	(title_block
 		(title "GSA Schematic Library")
-		(date "May  2020")
-		(rev "1.1.0")
+		(date "Feb 2026")
+		(rev "1.2.0")
 		(company "Gemstone Amplification")
-		(comment 1 "© Tim Baldwin 2016,2020")
+		(comment 1 "© Tim Baldwin 2016,2026")
 		(comment 4 "Schematic Symbols")
 	)
 	(lib_symbols
+		(symbol "GSA:UJT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UJT"
+				(at 4.826 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UJT_0_1"
+				(polyline
+					(pts
+						(xy -5.08 -1.905) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.302 1.27) (xy -2.1182 -0.4853)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54) (xy -0.635 -2.54) (xy -0.635 2.54) (xy -1.27 2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.27 -3.175) (xy 1.27 -3.175)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 3.4036)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 3.175) (xy 1.27 1.27) (xy -0.635 1.27) (xy -0.635 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UJT_1_1"
+				(polyline
+					(pts
+						(xy -1.4703 -1.3343) (xy -1.7243 -0.3183) (xy -2.3784 -0.785) (xy -1.4703 -1.3343)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 1.27 0)
+					(length 1.778)
+					(name "E"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "e"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 5.08 270)
+					(length 2.032)
+					(name "B1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "b1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 -5.08 90)
+					(length 2.032)
+					(name "B2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "b2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "gsa:40106"
 			(pin_numbers
 				(hide yes)
@@ -13100,9 +13297,21 @@
 					)
 				)
 				(arc
-					(start 3.048 5.715)
-					(mid 1.4732 7.2898)
-					(end 3.048 8.89)
+					(start 3.048 -6.223)
+					(mid 1.3208 -4.4958)
+					(end 3.048 -2.794)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 -8.89)
+					(mid 1.4478 -7.2898)
+					(end 3.048 -5.715)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -13115,18 +13324,6 @@
 					(start 3.048 6.223)
 					(mid 3.302 5.969)
 					(end 3.048 5.715)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 3.048 2.794)
-					(mid 1.3462 4.4958)
-					(end 3.048 6.223)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -13196,18 +13393,6 @@
 					)
 				)
 				(arc
-					(start 3.048 -6.223)
-					(mid 1.3208 -4.4958)
-					(end 3.048 -2.794)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
 					(start 3.048 -5.715)
 					(mid 3.302 -5.969)
 					(end 3.048 -6.223)
@@ -13220,9 +13405,21 @@
 					)
 				)
 				(arc
-					(start 3.048 -8.89)
-					(mid 1.4478 -7.2898)
-					(end 3.048 -5.715)
+					(start 3.048 5.715)
+					(mid 1.4732 7.2898)
+					(end 3.048 8.89)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 3.048 2.794)
+					(mid 1.3462 4.4958)
+					(end 3.048 6.223)
 					(stroke
 						(width 0.254)
 						(type solid)
@@ -15673,7 +15870,7 @@
 	)
 	(symbol
 		(lib_id "gsa:NMOS-D")
-		(at 57.15 88.9 0)
+		(at 63.5 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15681,7 +15878,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f44ce")
 		(property "Reference" "Q5"
-			(at 61.976 85.09 0)
+			(at 68.326 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15690,7 +15887,7 @@
 			)
 		)
 		(property "Value" "NMOS-D"
-			(at 65.278 92.71 0)
+			(at 71.628 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15698,7 +15895,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 88.9 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15706,7 +15903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 88.9 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15714,7 +15911,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 88.9 0)
+			(at 63.5 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15741,7 +15938,7 @@
 	)
 	(symbol
 		(lib_id "gsa:NMOS-E")
-		(at 76.2 88.9 0)
+		(at 81.28 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15749,7 +15946,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f4559")
 		(property "Reference" "Q7"
-			(at 81.026 85.09 0)
+			(at 86.106 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +15955,7 @@
 			)
 		)
 		(property "Value" "NMOS-E"
-			(at 84.328 92.71 0)
+			(at 89.408 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15774,7 +15971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15782,7 +15979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 88.9 0)
+			(at 81.28 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15951,7 +16148,7 @@
 	)
 	(symbol
 		(lib_id "gsa:PMOS-D")
-		(at 57.15 101.6 0)
+		(at 63.5 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15959,7 +16156,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f49fe")
 		(property "Reference" "Q6"
-			(at 61.976 97.79 0)
+			(at 68.326 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15968,7 +16165,7 @@
 			)
 		)
 		(property "Value" "PMOS-D"
-			(at 65.278 105.41 0)
+			(at 71.628 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15976,7 +16173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 101.6 0)
+			(at 63.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15984,7 +16181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 101.6 0)
+			(at 63.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15992,7 +16189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 57.15 101.6 0)
+			(at 63.5 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16019,7 +16216,7 @@
 	)
 	(symbol
 		(lib_id "gsa:PMOS-E")
-		(at 76.2 101.6 0)
+		(at 81.28 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16027,7 +16224,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005a8f4ba5")
 		(property "Reference" "Q8"
-			(at 81.026 97.79 0)
+			(at 86.106 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16036,7 +16233,7 @@
 			)
 		)
 		(property "Value" "PMOS-E"
-			(at 84.328 105.41 0)
+			(at 89.408 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16044,7 +16241,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16052,7 +16249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16060,7 +16257,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 101.6 0)
+			(at 81.28 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18279,7 +18476,7 @@
 	)
 	(symbol
 		(lib_id "gsa:NFET")
-		(at 40.64 88.9 0)
+		(at 38.1 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18287,7 +18484,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ecc6682")
 		(property "Reference" "Q3"
-			(at 44.8056 87.7316 0)
+			(at 42.2656 87.7316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18297,7 +18494,7 @@
 			)
 		)
 		(property "Value" "NFET"
-			(at 43.18 92.71 0)
+			(at 40.64 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18306,7 +18503,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18315,7 +18512,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18324,7 +18521,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 88.9 0)
+			(at 38.1 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18351,7 +18548,7 @@
 	)
 	(symbol
 		(lib_id "gsa:PFET")
-		(at 40.64 101.6 0)
+		(at 38.1 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18359,7 +18556,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ecc7555")
 		(property "Reference" "Q4"
-			(at 44.8056 100.4316 0)
+			(at 42.2656 100.4316 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18369,7 +18566,7 @@
 			)
 		)
 		(property "Value" "PFET"
-			(at 43.18 105.41 0)
+			(at 40.64 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18378,7 +18575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 101.6 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18387,7 +18584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 101.6 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18396,7 +18593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 40.64 101.6 0)
+			(at 38.1 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19046,6 +19243,79 @@
 			(project ""
 				(path "/c14e7037-c8f8-4fad-93b5-84a1fe31f353"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GSA:UJT")
+		(at 50.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1975cd14-82a3-498d-bdeb-ddb14940b849")
+		(property "Reference" "Q9"
+			(at 55.88 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "UJT"
+			(at 53.848 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "b1"
+			(uuid "5c132f87-f9f6-441e-9158-72c0407ef259")
+		)
+		(pin "e"
+			(uuid "d9ab24a7-6edb-4030-9638-31ea61f9dfa3")
+		)
+		(pin "b2"
+			(uuid "c14b3f43-b22a-407c-92d8-daaf0b625a86")
+		)
+		(instances
+			(project ""
+				(path "/c14e7037-c8f8-4fad-93b5-84a1fe31f353"
+					(reference "Q9")
 					(unit 1)
 				)
 			)

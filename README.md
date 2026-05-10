@@ -23,7 +23,7 @@ version 6.0 or later, but are mostly tested with version 9.
 * `gsa.kicad_wks`  
    A KiCad page template including the GSA logo
   
-* `gsa.lib/`  
+* `gsa.sym/`  
    The directory containing the schematic library
   
 * `gsa.pretty/`  
@@ -72,12 +72,12 @@ Other GSA projects should use the library automatically, provided the
 To use in your own projects:
 
 * For schematic symbols, use **eeschema** _Preferences_/_Manage Symbol Libraries_
-and add the `gsa.lib` library as either a _Global Library_ or a
+and add the `gsa.kicad_sym` symbol library as either a _Global Library_ or a
 _Project Specific Library_ by selecting the _Browse Libraries..._ button and
-selecting from the `gsa-lib/gsa.lib` directory.
+selecting from the `gsa-lib/gsa.sym` directory.
 
 * For PCB footprints, use **pcbnew** _Preferences_/_Manage Footprint Libraries_
-and add the `gsa.pretty` library as either a _Global Library_ or a
+and add the `gsa.pretty` footprint library as either a _Global Library_ or a
 _Project Specific Libary_ by selecting the _Browse Libraries..._ button and
 selecting the `gsa-lib/gsa.pretty` directory.
 

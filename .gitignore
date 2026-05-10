@@ -1,5 +1,7 @@
 gsa-lib-backups/
 fp-info-cache
-~*.lck
+*.bak
+*.lck
 *.wings~
 *.wings#
+_autosave*

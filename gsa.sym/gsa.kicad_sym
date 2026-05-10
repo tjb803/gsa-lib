@@ -6820,10 +6820,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -7.62 16.51) (xy 7.62 16.51)
-				)
+			(arc
+				(start -8.255 15.875)
+				(mid -8.0708 16.3325)
+				(end -7.62 16.51)
 				(stroke
 					(width 0.508)
 					(type solid)
@@ -6846,7 +6846,7 @@
 			)
 			(polyline
 				(pts
-					(xy -7.62 -8.255) (xy 7.62 -8.255)
+					(xy -7.62 16.51) (xy 7.62 16.51)
 				)
 				(stroke
 					(width 0.508)
@@ -6856,10 +6856,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -8.255 15.875)
-				(mid -8.0708 16.3325)
-				(end -7.62 16.51)
+			(polyline
+				(pts
+					(xy -7.62 -8.255) (xy 7.62 -8.255)
+				)
 				(stroke
 					(width 0.508)
 					(type solid)
@@ -6880,10 +6880,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy -4.445 12.7) (xy -1.27 6.985)
-				)
+			(arc
+				(start 9.525 5.715)
+				(mid 10.7689 -0.3165)
+				(end 9.525 -6.35)
 				(stroke
 					(width 0.381)
 					(type solid)
@@ -6892,10 +6892,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start 9.525 5.715)
-				(mid 10.7689 -0.3165)
-				(end 9.525 -6.35)
+			(polyline
+				(pts
+					(xy -4.445 12.7) (xy -1.27 6.985)
+				)
 				(stroke
 					(width 0.381)
 					(type solid)
@@ -7056,10 +7056,10 @@
 					(type none)
 				)
 			)
-			(arc
-				(start -9.525 -6.35)
-				(mid -10.7689 -0.3185)
-				(end -9.525 5.715)
+			(polyline
+				(pts
+					(xy 4.445 12.7) (xy 1.27 6.985)
+				)
 				(stroke
 					(width 0.381)
 					(type solid)
@@ -7068,10 +7068,10 @@
 					(type none)
 				)
 			)
-			(polyline
-				(pts
-					(xy 4.445 12.7) (xy 1.27 6.985)
-				)
+			(arc
+				(start -9.525 -6.35)
+				(mid -10.7689 -0.3185)
+				(end -9.525 5.715)
 				(stroke
 					(width 0.381)
 					(type solid)
@@ -14084,6 +14084,203 @@
 		)
 		(embedded_fonts no)
 	)
+	(symbol "UJT"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "Q"
+			(at 3.81 3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UJT"
+			(at 4.826 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "UJT_0_1"
+			(polyline
+				(pts
+					(xy -5.08 -1.905) (xy -5.08 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.302 1.27) (xy -2.1182 -0.4853)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 -2.54) (xy -0.635 -2.54) (xy -0.635 2.54) (xy -1.27 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 -1.27) (xy 1.27 -1.27) (xy 1.27 -3.175) (xy 1.27 -3.175)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 0 0)
+				(radius 3.4036)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 3.175) (xy 1.27 1.27) (xy -0.635 1.27) (xy -0.635 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "UJT_1_1"
+			(polyline
+				(pts
+					(xy -1.4703 -1.3343) (xy -1.7243 -0.3183) (xy -2.3784 -0.785) (xy -1.4703 -1.3343)
+				)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 1.778)
+				(name "E"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "e"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 5.08 270)
+				(length 2.032)
+				(name "B1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "b1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 1.27 -5.08 90)
+				(length 2.032)
+				(name "B2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "b2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
 	(symbol "V+"
 		(power)
 		(pin_numbers
@@ -14892,9 +15089,21 @@
 				)
 			)
 			(arc
-				(start 3.048 5.715)
-				(mid 1.4732 7.2898)
-				(end 3.048 8.89)
+				(start 3.048 -6.223)
+				(mid 1.3208 -4.4958)
+				(end 3.048 -2.794)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.048 -8.89)
+				(mid 1.4478 -7.2898)
+				(end 3.048 -5.715)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -14907,18 +15116,6 @@
 				(start 3.048 6.223)
 				(mid 3.302 5.969)
 				(end 3.048 5.715)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
-				(start 3.048 2.794)
-				(mid 1.3462 4.4958)
-				(end 3.048 6.223)
 				(stroke
 					(width 0.254)
 					(type solid)
@@ -14988,18 +15185,6 @@
 				)
 			)
 			(arc
-				(start 3.048 -6.223)
-				(mid 1.3208 -4.4958)
-				(end 3.048 -2.794)
-				(stroke
-					(width 0.254)
-					(type solid)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(arc
 				(start 3.048 -5.715)
 				(mid 3.302 -5.969)
 				(end 3.048 -6.223)
@@ -15012,9 +15197,21 @@
 				)
 			)
 			(arc
-				(start 3.048 -8.89)
-				(mid 1.4478 -7.2898)
-				(end 3.048 -5.715)
+				(start 3.048 5.715)
+				(mid 1.4732 7.2898)
+				(end 3.048 8.89)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(arc
+				(start 3.048 2.794)
+				(mid 1.3462 4.4958)
+				(end 3.048 6.223)
 				(stroke
 					(width 0.254)
 					(type solid)

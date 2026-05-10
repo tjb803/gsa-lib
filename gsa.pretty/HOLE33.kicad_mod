@@ -1,9 +1,74 @@
-(module HOLE33 (layer F.Cu) (tedit 5EC30509)
-  (fp_text reference REF** (at 0 3.175) (layer F.SilkS) hide
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value HOLE33 (at 0 -3.175) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (pad "" thru_hole circle (at 0 0) (size 3.556 3.556) (drill 3.300001) (layers *.Cu *.Mask F.SilkS))
+(footprint "HOLE33"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.175 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d46bde90-9d17-4822-ae71-80019035785a")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "HOLE33"
+		(at 0 -4.5 0)
+		(layer "F.Fab")
+		(uuid "40d4c0e5-5338-4df4-8559-f38d902c3a81")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8780399f-ce85-4f4f-950a-c3799d50fc97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a7420d26-0657-4cbb-9cd4-16316941a405")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 -0.035534)
+		(end 2.5 2.464466)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "eb938274-5dfc-46b6-ad3c-36d5aab86968")
+	)
+	(pad "" thru_hole circle
+		(at 0 0)
+		(size 3.556 3.556)
+		(drill 3.3)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "06b1b6b8-d389-4852-8d16-9e1256e1660c")
+	)
+	(embedded_fonts no)
 )
