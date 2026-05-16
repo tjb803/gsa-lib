@@ -7,14 +7,14 @@ and 3D models for all the components used in the GSA
 projects.
 
 This library and support files are intended to work with KiCad
-version 5.0 or later.
+version 6.0 or later, but are mostly tested with version 9.
 
 ### Contents
 
-* `gsa-lib.pro`  
+* `gsa-lib.kicad_pro` and `gsa-lib.kicad_prl`  
    The KiCad project file for the library
 
-* `gsa-lib.sch`, `gsa-lib-cache.lib` and `sym-lib-table`  
+* `gsa-lib.kicad_sch` and `sym-lib-table`  
    A KiCad schematic showing all the available symbols
 
 * `gsa-lib.kicad_pcb` and `fp-lib-table`  
@@ -23,7 +23,7 @@ version 5.0 or later.
 * `gsa.kicad_wks`  
    A KiCad page template including the GSA logo
   
-* `gsa.lib/`  
+* `gsa.sym/`  
    The directory containing the schematic library
   
 * `gsa.pretty/`  
@@ -57,7 +57,7 @@ directory. It might look something like this:
 
 | Name | Path |
 | ---- | ---- |
-| GSALIB | /home/baldwin/GSA/gsa-lib |
+| GSALIB | /home/your_username/GSA/gsa-lib |
 | ... | ... |
 
 You should close and restart KiCad after doing this to ensure the 
@@ -72,12 +72,12 @@ Other GSA projects should use the library automatically, provided the
 To use in your own projects:
 
 * For schematic symbols, use **eeschema** _Preferences_/_Manage Symbol Libraries_
-and add the `gsa.lib` library as either a _Global Library_ or a
+and add the `gsa.kicad_sym` symbol library as either a _Global Library_ or a
 _Project Specific Library_ by selecting the _Browse Libraries..._ button and
-selecting from the `gsa-lib/gsa.lib` directory.
+selecting from the `gsa-lib/gsa.sym` directory.
 
 * For PCB footprints, use **pcbnew** _Preferences_/_Manage Footprint Libraries_
-and add the `gsa.pretty` library as either a _Global Library_ or a
+and add the `gsa.pretty` footprint library as either a _Global Library_ or a
 _Project Specific Libary_ by selecting the _Browse Libraries..._ button and
 selecting the `gsa-lib/gsa.pretty` directory.
 

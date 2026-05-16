@@ -12,3 +12,5 @@ Symbol and Footprint updates to support
 ## Release 1.1.0
 Tidy up symbols, footprints and 3d models
 
+## Release 1.2.0
+Updated for KiCad v6 and later

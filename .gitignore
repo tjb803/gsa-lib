@@ -1,6 +1,7 @@
-_autosave-*
+gsa-lib-backups/
+fp-info-cache
 *.bak
-*.sch-bak
-*.kicad_pcb-bak
+*.lck
 *.wings~
 *.wings#
+_autosave*
