@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20241209)
+	(version 20251024)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(symbol "40106"
 		(pin_numbers
 			(hide yes)
@@ -13,8 +13,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23,42 +27,52 @@
 		)
 		(property "Value" "40106"
 			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -2.286 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -2.286 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,24 +382,6 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 5.08 0 180)
 				(length 1.27)
@@ -397,6 +393,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -453,24 +467,6 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 5.08 0 180)
 				(length 1.27)
@@ -482,6 +478,24 @@
 					)
 				)
 				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -538,24 +552,6 @@
 					(type none)
 				)
 			)
-			(pin input line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "A"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 5.08 0 180)
 				(length 1.27)
@@ -567,6 +563,24 @@
 					)
 				)
 				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -608,24 +622,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 -3.81 90)
 				(length 1.27)
 				(name "V-"
@@ -636,6 +632,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -656,8 +670,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,6 +684,8 @@
 		)
 		(property "Value" "4017"
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -674,29 +694,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "4017_0_1"
@@ -713,107 +739,17 @@
 			)
 		)
 		(symbol "4017_1_1"
-			(pin input line
-				(at -6.35 2.54 0)
-				(length 1.778)
-				(name "CLK"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 0 0)
-				(length 1.778)
-				(name "~{CI}"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -6.35 -2.54 0)
-				(length 1.778)
-				(name "MR"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -3.81 8.89 270)
-				(length 1.778)
-				(name "VDD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "16"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -3.81 -8.89 90)
-				(length 1.778)
-				(name "VSS"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin output line
-				(at 6.35 6.35 180)
+				(at 6.35 0 180)
 				(length 1.778)
-				(name "Q0"
+				(name "Q5"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -840,6 +776,24 @@
 				)
 			)
 			(pin output line
+				(at 6.35 6.35 180)
+				(length 1.778)
+				(name "Q0"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at 6.35 3.81 180)
 				(length 1.778)
 				(name "Q2"
@@ -850,60 +804,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 6.35 2.54 180)
-				(length 1.778)
-				(name "Q3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 6.35 1.27 180)
-				(length 1.778)
-				(name "Q4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 6.35 0 180)
-				(length 1.778)
-				(name "Q5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -948,6 +848,42 @@
 				)
 			)
 			(pin output line
+				(at 6.35 2.54 180)
+				(length 1.778)
+				(name "Q3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -8.89 90)
+				(length 1.778)
+				(name "VSS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
 				(at 6.35 -3.81 180)
 				(length 1.778)
 				(name "Q8"
@@ -958,6 +894,24 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 6.35 1.27 180)
+				(length 1.778)
+				(name "Q4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1001,6 +955,78 @@
 					)
 				)
 			)
+			(pin input line
+				(at -6.35 0 0)
+				(length 1.778)
+				(name "~{CI}"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 2.54 0)
+				(length 1.778)
+				(name "CLK"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 -2.54 0)
+				(length 1.778)
+				(name "MR"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 8.89 270)
+				(length 1.778)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -1014,8 +1040,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 8.89 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1024,6 +1054,8 @@
 		)
 		(property "Value" "4066"
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1032,29 +1064,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "4066_0_1"
@@ -1071,17 +1109,71 @@
 			)
 		)
 		(symbol "4066_1_1"
-			(pin input line
-				(at -6.35 2.54 0)
+			(pin bidirectional line
+				(at 6.35 6.35 180)
 				(length 1.905)
-				(name "SA"
+				(name "A1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "13"
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 5.08 180)
+				(length 1.905)
+				(name "A2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 1.27 180)
+				(length 1.905)
+				(name "B2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 6.35 2.54 180)
+				(length 1.905)
+				(name "B1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1125,42 +1217,6 @@
 					)
 				)
 			)
-			(pin input line
-				(at -6.35 -2.54 0)
-				(length 1.905)
-				(name "SD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -3.81 8.89 270)
-				(length 1.905)
-				(name "VDD"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin power_in line
 				(at -3.81 -8.89 90)
 				(length 1.905)
@@ -1172,78 +1228,6 @@
 					)
 				)
 				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 6.35 6.35 180)
-				(length 1.905)
-				(name "A1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 6.35 5.08 180)
-				(length 1.905)
-				(name "A2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 6.35 2.54 180)
-				(length 1.905)
-				(name "B1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 6.35 1.27 180)
-				(length 1.905)
-				(name "B2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1288,6 +1272,24 @@
 				)
 			)
 			(pin bidirectional line
+				(at 6.35 -6.35 180)
+				(length 1.905)
+				(name "D2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
 				(at 6.35 -5.08 180)
 				(length 1.905)
 				(name "D1"
@@ -1305,17 +1307,53 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 6.35 -6.35 180)
+			(pin input line
+				(at -6.35 -2.54 0)
 				(length 1.905)
-				(name "D2"
+				(name "SD"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "10"
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -6.35 2.54 0)
+				(length 1.905)
+				(name "SA"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 8.89 270)
+				(length 1.905)
+				(name "VDD"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1337,8 +1375,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1347,42 +1389,52 @@
 		)
 		(property "Value" "4093"
 			(at 3.81 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1564,6 +1616,24 @@
 					(type none)
 				)
 			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "J"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -5.08 1.27 0)
 				(length 2.54)
@@ -1593,24 +1663,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 5.08 0 180)
-				(length 1.27)
-				(name "J"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1794,6 +1846,24 @@
 					(type none)
 				)
 			)
+			(pin output line
+				(at 5.08 0 180)
+				(length 1.27)
+				(name "J"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -5.08 1.27 0)
 				(length 2.54)
@@ -1826,24 +1896,6 @@
 					(effects
 						(font
 							(size 1.016 1.016)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 5.08 0 180)
-				(length 1.27)
-				(name "J"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 0.762 0.762)
 						)
 					)
 				)
@@ -1882,24 +1934,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 -3.81 90)
 				(length 1.27)
 				(name "V-"
@@ -1910,6 +1944,24 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -1928,8 +1980,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1938,6 +1994,8 @@
 		)
 		(property "Value" "741"
 			(at -0.635 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1946,29 +2004,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "741_0_0"
@@ -2004,17 +2068,17 @@
 			)
 		)
 		(symbol "741_1_1"
-			(pin input line
-				(at -6.35 3.81 0)
-				(length 2.54)
-				(name "IN+"
+			(pin passive line
+				(at 5.08 3.81 270)
+				(length 1.778)
+				(name "OFFSET_NULL"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2040,17 +2104,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "V+"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "IN+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "7"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2069,24 +2133,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 5.08 3.81 270)
-				(length 1.778)
-				(name "OFFSET_NULL"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2130,11 +2176,29 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "BATTERY"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -2145,8 +2209,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "BT"
 			(at -2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2155,6 +2223,8 @@
 		)
 		(property "Value" "BATTERY"
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2163,29 +2233,35 @@
 		)
 		(property "Footprint" ""
 			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "BATTERY_0_0"
@@ -2310,24 +2386,6 @@
 				)
 			)
 			(pin power_out line
-				(at 0 5.08 270)
-				(length 2.032)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_out line
 				(at 0 -5.08 90)
 				(length 2.032)
 				(name "GND"
@@ -2338,6 +2396,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 5.08 270)
+				(length 2.032)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2358,8 +2434,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "BR"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,38 +2448,46 @@
 		)
 		(property "Value" "BRIDGE"
 			(at 4.826 -7.112 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 7.874 9.398 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 7.874 9.398 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "BRIDGE_0_1"
@@ -2514,16 +2602,16 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 0 0)
+				(at 0 -7.62 90)
 				(length 1.905)
-				(name "-"
+				(name "AC"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "d1"
+				(number "a1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2550,16 +2638,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -7.62 90)
+				(at -7.62 0 0)
 				(length 1.905)
-				(name "AC"
+				(name "-"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "a1"
+				(number "d1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2599,8 +2687,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
 			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2609,6 +2701,8 @@
 		)
 		(property "Value" "CAP"
 			(at 2.54 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2617,29 +2711,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CAP_0_1"
@@ -2670,24 +2770,6 @@
 		)
 		(symbol "CAP_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -3.81 90)
 				(length 2.54)
 				(name "1"
@@ -2698,6 +2780,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2719,8 +2819,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "C"
 			(at 1.27 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2729,6 +2833,8 @@
 		)
 		(property "Value" "CAP+"
 			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2737,29 +2843,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CAP+_0_0"
@@ -2800,24 +2912,6 @@
 		)
 		(symbol "CAP+_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -3.81 90)
 				(length 2.54)
 				(name "-"
@@ -2835,11 +2929,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "CELL"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -2850,8 +2962,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "BT"
 			(at -3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2860,6 +2976,8 @@
 		)
 		(property "Value" "CELL"
 			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,29 +2986,35 @@
 		)
 		(property "Footprint" ""
 			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CELL_0_0"
@@ -2943,24 +3067,6 @@
 		)
 		(symbol "CELL_1_1"
 			(pin power_out line
-				(at 0 2.54 270)
-				(length 2.032)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_out line
 				(at 0 -2.54 90)
 				(length 2.032)
 				(name "GND"
@@ -2971,6 +3077,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 2.54 270)
+				(length 2.032)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -2989,8 +3113,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2999,38 +3127,46 @@
 		)
 		(property "Value" "CONN-1"
 			(at 0 3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CONN-1_0_1"
@@ -3088,8 +3224,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3098,38 +3238,46 @@
 		)
 		(property "Value" "CONN-2"
 			(at 0 5.715 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CONN-2_0_1"
@@ -3171,24 +3319,6 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 2.54 0)
-				(length 3.81)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -3.81 0 0)
 				(length 3.81)
 				(name "1"
@@ -3199,6 +3329,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 2.54 0)
+				(length 3.81)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3217,8 +3365,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,38 +3379,46 @@
 		)
 		(property "Value" "CONN-3"
 			(at 0 8.255 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CONN-3_0_1"
@@ -3312,16 +3472,16 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 5.08 0)
+				(at -3.81 0 0)
 				(length 3.81)
-				(name "3"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3348,16 +3508,16 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -3.81 5.08 0)
 				(length 3.81)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3376,8 +3536,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,38 +3550,46 @@
 		)
 		(property "Value" "CONN-4"
 			(at 0 10.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CONN-4_0_1"
@@ -3483,34 +3655,16 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 7.62 0)
+				(at -3.81 0 0)
 				(length 3.81)
-				(name "4"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 5.08 0)
-				(length 3.81)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3537,16 +3691,34 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -3.81 5.08 0)
 				(length 3.81)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 7.62 0)
+				(length 3.81)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3565,8 +3737,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 0 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,38 +3751,46 @@
 		)
 		(property "Value" "CONN-5"
 			(at 0 13.335 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "CONN-5_0_1"
@@ -3684,52 +3868,16 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 10.16 0)
+				(at -3.81 0 0)
 				(length 3.81)
-				(name "5"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 7.62 0)
-				(length 3.81)
-				(name "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -3.81 5.08 0)
-				(length 3.81)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3756,16 +3904,52 @@
 				)
 			)
 			(pin passive line
-				(at -3.81 0 0)
+				(at -3.81 5.08 0)
 				(length 3.81)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 7.62 0)
+				(length 3.81)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 10.16 0)
+				(length 3.81)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -3787,8 +3971,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3797,6 +3985,8 @@
 		)
 		(property "Value" "DIODE"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3805,29 +3995,35 @@
 		)
 		(property "Footprint" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "DIODE_0_1"
@@ -3906,8 +4102,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3916,6 +4116,8 @@
 		)
 		(property "Value" "DIODE-S"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,29 +4126,35 @@
 		)
 		(property "Footprint" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.635 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "DIODE-S_0_1"
@@ -4039,7 +4247,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "EARTH"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -4050,17 +4258,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 3.556 -2.032 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "EARTH"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4069,29 +4283,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "EARTH_0_1"
@@ -4190,8 +4410,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "F"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4200,6 +4424,8 @@
 		)
 		(property "Value" "FUSE"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,29 +4434,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "FUSE_0_1"
@@ -4300,7 +4532,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "GND"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -4311,17 +4543,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 3.81 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "GND"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4330,29 +4568,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "GND_0_0"
@@ -4417,49 +4661,61 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at 2.54 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "HOLE"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "HOLE_0_1"
@@ -4510,8 +4766,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "H"
 			(at 1.905 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4520,38 +4780,46 @@
 		)
 		(property "Value" "HOLE-G"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "HOLE-G_0_0"
@@ -4625,8 +4893,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "D"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4635,38 +4907,46 @@
 		)
 		(property "Value" "LED"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LED_0_1"
@@ -4769,8 +5049,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "JP"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,38 +5063,46 @@
 		)
 		(property "Value" "LINK"
 			(at -3.175 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LINK_0_1"
@@ -4839,24 +5131,6 @@
 		)
 		(symbol "LINK_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -3.81 90)
 				(length 2.54)
 				(name "1"
@@ -4867,6 +5141,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 3.81 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -4885,8 +5177,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,6 +5191,8 @@
 		)
 		(property "Value" "LM1875"
 			(at 0.635 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4903,29 +5201,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 -10.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 -10.795 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM1875_0_0"
@@ -4998,24 +5302,6 @@
 				)
 			)
 			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 -6.35 90)
 				(length 1.905)
 				(name "V-"
@@ -5051,6 +5337,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -5062,8 +5366,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5072,6 +5380,8 @@
 		)
 		(property "Value" "LM1876"
 			(at -0.635 -3.175 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5080,29 +5390,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -13.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM1876_0_0"
@@ -5311,143 +5627,17 @@
 			)
 		)
 		(symbol "LM1876_1_1"
-			(pin input line
-				(at -12.7 17.78 0)
+			(pin output line
+				(at 12.7 -13.97 180)
 				(length 2.54)
-				(name "A+"
+				(name "B-Out"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 10.16 0)
-				(length 2.54)
-				(name "A-"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 1.27 0)
-				(length 2.54)
-				(name "Standby-A"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -12.7 -1.27 0)
-				(length 2.54)
-				(name "Standby-B"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "14"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -10.16 0)
-				(length 2.54)
-				(name "B+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "13"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -12.7 -17.78 0)
-				(length 2.54)
-				(name "B-"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "12"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -6.35 -26.67 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -3.81 -26.67 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "10"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5473,17 +5663,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 26.67 270)
+			(pin output line
+				(at 12.7 13.97 180)
 				(length 2.54)
-				(name "V+"
+				(name "A-Out"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "15"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5509,17 +5699,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 13.97 180)
+			(pin power_in line
+				(at -6.35 -26.67 90)
 				(length 2.54)
-				(name "A-Out"
+				(name "GND"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "5"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5545,6 +5735,78 @@
 					)
 				)
 			)
+			(pin input line
+				(at -12.7 10.16 0)
+				(length 2.54)
+				(name "A-"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 17.78 0)
+				(length 2.54)
+				(name "A+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 1.27 0)
+				(length 2.54)
+				(name "Standby-A"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -3.81 -26.67 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at 12.7 -1.27 180)
 				(length 2.54)
@@ -5563,17 +5825,71 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -13.97 180)
+			(pin input line
+				(at -12.7 -17.78 0)
 				(length 2.54)
-				(name "B-Out"
+				(name "B-"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "12"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -12.7 -10.16 0)
+				(length 2.54)
+				(name "B+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -12.7 -1.27 0)
+				(length 2.54)
+				(name "Standby-B"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 26.67 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "15"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5594,8 +5910,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5604,6 +5924,8 @@
 		)
 		(property "Value" "LM317"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5612,29 +5934,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM317_0_1"
@@ -5651,24 +5979,6 @@
 			)
 		)
 		(symbol "LM317_1_1"
-			(pin power_in line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 -6.35 90)
 				(length 2.54)
@@ -5705,6 +6015,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -5718,8 +6046,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5728,6 +6060,8 @@
 		)
 		(property "Value" "LM377"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,29 +6070,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM377_0_1"
@@ -5775,24 +6115,6 @@
 			)
 		)
 		(symbol "LM377_1_1"
-			(pin power_in line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 6.35 270)
 				(length 2.54)
@@ -5804,6 +6126,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5840,8 +6180,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5850,6 +6194,8 @@
 		)
 		(property "Value" "LM386"
 			(at 0.635 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5858,29 +6204,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM386_0_0"
@@ -5916,17 +6268,17 @@
 			)
 		)
 		(symbol "LM386_1_1"
-			(pin input line
-				(at -6.35 3.81 0)
+			(pin passive line
+				(at 3.81 5.08 270)
 				(length 2.54)
-				(name "IN+"
+				(name "G1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5952,17 +6304,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "VS"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "IN+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -5988,17 +6340,35 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 3.81 5.08 270)
+			(pin output line
+				(at 11.43 0 180)
 				(length 2.54)
-				(name "G1"
+				(name "OUT"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "VS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -6042,24 +6412,6 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -6073,8 +6425,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6083,6 +6439,8 @@
 		)
 		(property "Value" "LM78XX"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6091,29 +6449,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM78XX_0_1"
@@ -6197,8 +6561,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6207,6 +6575,8 @@
 		)
 		(property "Value" "LM79XX"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6215,29 +6585,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LM79XX_0_1"
@@ -6254,24 +6630,6 @@
 			)
 		)
 		(symbol "LM79XX_1_1"
-			(pin power_in line
-				(at -8.89 0 0)
-				(length 2.54)
-				(name "IN"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin passive line
 				(at 0 6.35 270)
 				(length 2.54)
@@ -6283,6 +6641,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -8.89 0 0)
+				(length 2.54)
+				(name "IN"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -6318,49 +6694,61 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#SYM"
 			(at 3.81 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "LOGO"
 			(at -3.81 17.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "LOGO_0_0"
@@ -7138,8 +7526,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 0 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,6 +7540,8 @@
 		)
 		(property "Value" "NE555"
 			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7156,29 +7550,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NE555_0_1"
@@ -7195,35 +7595,17 @@
 			)
 		)
 		(symbol "NE555_1_1"
-			(pin passive line
-				(at -7.62 2.54 0)
+			(pin power_in line
+				(at -2.54 -8.89 90)
 				(length 2.54)
-				(name "DIS"
+				(name "GND"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "7"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -7.62 0 0)
-				(length 2.54)
-				(name "THR"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "6"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -7249,35 +7631,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 8.89 270)
+			(pin output line
+				(at 7.62 0 180)
 				(length 2.54)
-				(name "VCC"
+				(name "OUT"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -2.54 -8.89 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -7321,17 +7685,53 @@
 					)
 				)
 			)
-			(pin output line
-				(at 7.62 0 180)
+			(pin passive line
+				(at -7.62 0 0)
 				(length 2.54)
-				(name "OUT"
+				(name "THR"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 2.54 0)
+				(length 2.54)
+				(name "DIS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 8.89 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -7353,49 +7753,61 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#SYM"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "NET"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NET_0_1"
@@ -7445,8 +7857,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 3.81 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7455,6 +7871,8 @@
 		)
 		(property "Value" "NFET"
 			(at 7.62 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7463,29 +7881,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NFET_0_1"
@@ -7563,24 +7987,6 @@
 		)
 		(symbol "NFET_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 1.778)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 1.27 5.08 270)
 				(length 2.032)
 				(name "D"
@@ -7591,6 +7997,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.778)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -7630,8 +8054,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,6 +8068,8 @@
 		)
 		(property "Value" "NMOS-D"
 			(at 8.128 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7648,29 +8078,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NMOS-D_0_1"
@@ -7748,24 +8184,6 @@
 		)
 		(symbol "NMOS-D_1_1"
 			(pin passive line
-				(at -3.81 -2.54 0)
-				(length 1.524)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.794)
 				(name "D"
@@ -7776,6 +8194,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 1.524)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -7815,8 +8251,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7825,6 +8265,8 @@
 		)
 		(property "Value" "NMOS-E"
 			(at 8.128 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7833,29 +8275,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NMOS-E_0_1"
@@ -7933,24 +8381,6 @@
 		)
 		(symbol "NMOS-E_1_1"
 			(pin passive line
-				(at -3.81 -2.54 0)
-				(length 1.524)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 3.175)
 				(name "D"
@@ -7961,6 +8391,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 1.524)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8000,8 +8448,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8010,6 +8462,8 @@
 		)
 		(property "Value" "NPN"
 			(at 5.588 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8018,29 +8472,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "NPN_0_1"
@@ -8185,8 +8645,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,6 +8659,8 @@
 		)
 		(property "Value" "OPAMP"
 			(at 0.635 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8203,29 +8669,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "OPAMP_0_0"
@@ -8264,24 +8736,6 @@
 		)
 		(symbol "OPAMP_1_1"
 			(pin input line
-				(at -6.35 3.81 0)
-				(length 2.54)
-				(name "In+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -6.35 -3.81 0)
 				(length 2.54)
 				(name "In-"
@@ -8299,17 +8753,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "V+"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "In+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "7"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8353,6 +8807,24 @@
 					)
 				)
 			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -8367,8 +8839,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8377,6 +8853,8 @@
 		)
 		(property "Value" "OPAMP-2"
 			(at 1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8385,33 +8863,41 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "ki_locked" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8451,17 +8937,17 @@
 					(type background)
 				)
 			)
-			(pin input line
-				(at -6.35 3.81 0)
+			(pin output line
+				(at 11.43 0 180)
 				(length 2.54)
-				(name "In+"
+				(name "Out"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8487,17 +8973,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 0 180)
+			(pin input line
+				(at -6.35 3.81 0)
 				(length 2.54)
-				(name "Out"
+				(name "In+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8627,24 +9113,6 @@
 		)
 		(symbol "OPAMP-2_3_1"
 			(pin power_in line
-				(at 0 3.81 270)
-				(length 1.27)
-				(name "V+"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin power_in line
 				(at 0 -3.81 90)
 				(length 1.27)
 				(name "V-"
@@ -8655,6 +9123,24 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name "V+"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "8"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8676,8 +9162,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "JP"
 			(at 1.905 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8686,38 +9176,46 @@
 		)
 		(property "Value" "PAD"
 			(at 0 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PAD_0_1"
@@ -8737,7 +9235,7 @@
 			(pin passive line
 				(at -1.27 0 0)
 				(length 1.27)
-				(name "~"
+				(name ""
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8766,8 +9264,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 3.81 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8776,6 +9278,8 @@
 		)
 		(property "Value" "PFET"
 			(at 7.62 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8784,29 +9288,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PFET_0_1"
@@ -8896,24 +9406,6 @@
 		)
 		(symbol "PFET_1_1"
 			(pin passive line
-				(at -5.08 0 0)
-				(length 1.778)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 1.27 5.08 270)
 				(length 2.032)
 				(name "D"
@@ -8924,6 +9416,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 1.778)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -8963,8 +9473,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8973,6 +9487,8 @@
 		)
 		(property "Value" "PMOS-D"
 			(at 8.128 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8981,29 +9497,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PMOS-D_0_1"
@@ -9081,24 +9603,6 @@
 		)
 		(symbol "PMOS-D_1_1"
 			(pin passive line
-				(at -3.81 -2.54 0)
-				(length 1.524)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.794)
 				(name "D"
@@ -9109,6 +9613,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 1.524)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -9148,8 +9670,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9158,6 +9684,8 @@
 		)
 		(property "Value" "PMOS-E"
 			(at 8.128 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9166,29 +9694,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PMOS-E_0_1"
@@ -9266,24 +9800,6 @@
 		)
 		(symbol "PMOS-E_1_1"
 			(pin passive line
-				(at -3.81 -2.54 0)
-				(length 1.397)
-				(name "G"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "g"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 2.54 5.08 270)
 				(length 2.794)
 				(name "D"
@@ -9294,6 +9810,24 @@
 					)
 				)
 				(number "d"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -2.54 0)
+				(length 1.397)
+				(name "G"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "g"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -9333,8 +9867,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 4.826 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9343,6 +9881,8 @@
 		)
 		(property "Value" "PNP"
 			(at 5.588 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9351,29 +9891,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PNP_0_1"
@@ -9517,8 +10063,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
 			(at 2.54 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9527,6 +10077,8 @@
 		)
 		(property "Value" "POT"
 			(at 3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9535,29 +10087,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "POT_0_1"
@@ -9588,24 +10146,6 @@
 		)
 		(symbol "POT_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -9641,6 +10181,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -9654,8 +10212,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
 			(at 2.54 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9664,6 +10226,8 @@
 		)
 		(property "Value" "POT-DUAL"
 			(at 7.62 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9672,29 +10236,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "POT-DUAL_0_1"
@@ -9725,24 +10295,6 @@
 		)
 		(symbol "POT-DUAL_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -9778,8 +10330,6 @@
 					)
 				)
 			)
-		)
-		(symbol "POT-DUAL_2_1"
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -9790,7 +10340,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -9798,6 +10348,8 @@
 					)
 				)
 			)
+		)
+		(symbol "POT-DUAL_2_1"
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -9834,6 +10386,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -9847,8 +10417,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
 			(at 2.54 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9857,6 +10431,8 @@
 		)
 		(property "Value" "POT-DUAL-G"
 			(at 8.89 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9865,29 +10441,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "POT-DUAL-G_0_1"
@@ -9985,24 +10567,6 @@
 		)
 		(symbol "POT-DUAL-G_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -10038,8 +10602,6 @@
 					)
 				)
 			)
-		)
-		(symbol "POT-DUAL-G_2_1"
 			(pin passive line
 				(at 0 5.08 270)
 				(length 2.54)
@@ -10050,7 +10612,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -10058,6 +10620,8 @@
 					)
 				)
 			)
+		)
+		(symbol "POT-DUAL-G_2_1"
 			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
@@ -10094,6 +10658,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -10107,8 +10689,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
 			(at 2.54 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10117,6 +10703,8 @@
 		)
 		(property "Value" "POT-G"
 			(at 5.08 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10125,29 +10713,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "POT-G_0_0"
@@ -10271,24 +10865,6 @@
 		)
 		(symbol "POT-G_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -10324,11 +10900,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "PWR"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -10339,49 +10933,61 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#FLG"
 			(at 3.81 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "PWR"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "PWR_0_0"
@@ -10430,8 +11036,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
 			(at -7.62 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,38 +11050,46 @@
 		)
 		(property "Value" "RELAY-DPDT"
 			(at -5.08 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RELAY-DPDT_0_1"
@@ -10711,34 +11329,16 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 7.62 0)
-				(length 5.08)
-				(name "C2"
+				(at 3.81 -10.16 90)
+				(length 6.35)
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "c2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -7.62 0)
-				(length 5.08)
-				(name "C1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "c1"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -10765,24 +11365,6 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -10.16 90)
-				(length 6.35)
-				(name "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6.35 10.16 270)
 				(length 5.842)
 				(name "3"
@@ -10793,24 +11375,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 10.16 10.16 270)
-				(length 5.842)
-				(name "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -10837,6 +11401,24 @@
 				)
 			)
 			(pin passive line
+				(at 10.16 10.16 270)
+				(length 5.842)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at 15.24 10.16 270)
 				(length 5.842)
 				(name "6"
@@ -10847,6 +11429,42 @@
 					)
 				)
 				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -7.62 0)
+				(length 5.08)
+				(name "C1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "c1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 7.62 0)
+				(length 5.08)
+				(name "C2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "c2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -10867,8 +11485,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "K"
 			(at -7.62 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10877,38 +11499,46 @@
 		)
 		(property "Value" "RELAY-SPDT"
 			(at -5.08 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RELAY-SPDT_0_1"
@@ -11103,34 +11733,16 @@
 				)
 			)
 			(pin passive line
-				(at -8.89 7.62 0)
-				(length 5.08)
-				(name "C2"
+				(at 3.81 -10.16 90)
+				(length 6.35)
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "c2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -8.89 -7.62 0)
-				(length 5.08)
-				(name "C1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "c1"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11157,24 +11769,6 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 -10.16 90)
-				(length 6.35)
-				(name "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6.35 10.16 270)
 				(length 5.842)
 				(name "3"
@@ -11185,6 +11779,42 @@
 					)
 				)
 				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 -7.62 0)
+				(length 5.08)
+				(name "C1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "c1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -8.89 7.62 0)
+				(length 5.08)
+				(name "C2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "c2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11206,8 +11836,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 2.54 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,6 +11850,8 @@
 		)
 		(property "Value" "RES"
 			(at 3.81 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11224,29 +11860,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "RES_0_1"
@@ -11265,24 +11907,6 @@
 		)
 		(symbol "RES_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -11300,10 +11924,28 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
-	(symbol "RES-V"
+	(symbol "RES-T"
 		(pin_numbers
 			(hide yes)
 		)
@@ -11313,16 +11955,22 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "VR"
-			(at 2.54 3.81 0)
+			(at 3.175 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "RES-V"
-			(at 4.445 -1.905 0)
+		(property "Value" "RES-T"
+			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11331,32 +11979,38 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(symbol "RES-V_0_1"
+		(symbol "RES-T_0_1"
 			(polyline
 				(pts
 					(xy 2.032 2.032) (xy 2.667 1.143)
@@ -11382,7 +12036,7 @@
 				)
 			)
 		)
-		(symbol "RES-V_1_1"
+		(symbol "RES-T_1_1"
 			(polyline
 				(pts
 					(xy -1.27 2.54) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 2.54) (xy -1.27 2.54) (xy -1.27 2.54)
@@ -11393,24 +12047,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
 				)
 			)
 			(pin passive line
@@ -11432,10 +12068,10 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
+				(at 0 5.08 180)
+				(length 0)
 				(hide yes)
-				(name "1"
+				(name "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11443,6 +12079,186 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "RES-T1"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "VR"
+			(at 3.175 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RES-T"
+			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "RES-T1_0_1"
+			(polyline
+				(pts
+					(xy 2.032 2.032) (xy 2.667 1.143)
+				)
+				(stroke
+					(width 0.381)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 1.524) (xy -2.286 -2.032)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "RES-T1_1_1"
+			(polyline
+				(pts
+					(xy -1.27 2.54) (xy -1.27 -2.54) (xy 1.27 -2.54) (xy 1.27 2.54) (xy -1.27 2.54) (xy -1.27 2.54)
+				)
+				(stroke
+					(width 0.254)
+					(type solid)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 180)
+				(length 0)
+				(hide yes)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -5.08 90)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11464,8 +12280,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "R"
 			(at 2.54 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11474,6 +12294,8 @@
 		)
 		(property "Value" "REZ"
 			(at 3.81 -1.778 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11482,29 +12304,35 @@
 		)
 		(property "Footprint" ""
 			(at -0.254 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.254 0.127 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "REZ_0_1"
@@ -11583,24 +12411,6 @@
 		)
 		(symbol "REZ_1_1"
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 0 -5.08 90)
 				(length 2.54)
 				(name "1"
@@ -11611,6 +12421,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 5.08 270)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11629,8 +12457,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 2.54 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11639,38 +12471,46 @@
 		)
 		(property "Value" "SKT-2"
 			(at 1.27 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SKT-2_0_1"
@@ -11699,24 +12539,6 @@
 		)
 		(symbol "SKT-2_1_1"
 			(pin passive line
-				(at -1.27 2.54 0)
-				(length 1.27)
-				(name "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -1.27 0 0)
 				(length 1.27)
 				(name "1"
@@ -11727,6 +12549,24 @@
 					)
 				)
 				(number "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -1.27 2.54 0)
+				(length 1.27)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11745,8 +12585,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "J"
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11755,38 +12599,46 @@
 		)
 		(property "Value" "SKT-3"
 			(at 1.27 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SKT-3_0_1"
@@ -11826,16 +12678,16 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 2.54 0)
+				(at -1.27 -2.54 0)
 				(length 1.27)
-				(name "3"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11862,16 +12714,16 @@
 				)
 			)
 			(pin passive line
-				(at -1.27 -2.54 0)
+				(at -1.27 2.54 0)
 				(length 1.27)
-				(name "1"
+				(name "3"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -11892,8 +12744,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11902,38 +12758,46 @@
 		)
 		(property "Value" "SW-DPDT"
 			(at 0 11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -0.254 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.254 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-DPDT_0_1"
@@ -12078,70 +12942,16 @@
 		)
 		(symbol "SW-DPDT_1_1"
 			(pin passive line
-				(at -6.35 5.08 0)
+				(at 6.35 -7.62 180)
 				(length 2.286)
-				(name "4"
+				(name "2"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 -5.08 0)
-				(length 2.286)
-				(name "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "C"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 7.62 180)
-				(length 2.286)
-				(name "6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 6.35 2.54 180)
-				(length 2.286)
-				(name "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -12168,16 +12978,70 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -7.62 180)
+				(at -6.35 5.08 0)
 				(length 2.286)
-				(name "2"
+				(name "4"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "2"
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 180)
+				(length 2.286)
+				(name "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 7.62 180)
+				(length 2.286)
+				(name "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -6.35 -5.08 0)
+				(length 2.286)
+				(name "1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "C"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -12198,8 +13062,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 0 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12208,38 +13076,46 @@
 		)
 		(property "Value" "SW-DPST"
 			(at 0 10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at -0.254 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at -0.254 4.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-DPST_0_1"
@@ -12362,6 +13238,24 @@
 		)
 		(symbol "SW-DPST_1_1"
 			(pin passive line
+				(at 6.35 -5.08 180)
+				(length 2.286)
+				(name "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
 				(at -6.35 5.08 0)
 				(length 2.286)
 				(name "4"
@@ -12372,24 +13266,6 @@
 					)
 				)
 				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -6.35 -5.08 0)
-				(length 2.286)
-				(name "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "C"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -12416,16 +13292,16 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -5.08 180)
+				(at -6.35 -5.08 0)
 				(length 2.286)
-				(name "2"
+				(name "1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "2"
+				(number "C"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -12446,8 +13322,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at 0 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12456,38 +13336,46 @@
 		)
 		(property "Value" "SW-PUSH"
 			(at 0 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-PUSH_0_1"
@@ -12588,8 +13476,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12598,38 +13490,46 @@
 		)
 		(property "Value" "SW-SP2T"
 			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-SP2T_0_1"
@@ -12699,24 +13599,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 3.81 180)
-				(length 2.286)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 -3.81 180)
 				(length 2.286)
 				(name "2"
@@ -12727,6 +13609,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 3.81 180)
+				(length 2.286)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -12747,8 +13647,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,38 +13661,46 @@
 		)
 		(property "Value" "SW-SP3T"
 			(at 0 6.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-SP3T_0_1"
@@ -12869,24 +13781,6 @@
 				)
 			)
 			(pin passive line
-				(at 5.08 3.81 180)
-				(length 2.286)
-				(name "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 5.08 -3.81 180)
 				(length 2.286)
 				(name "2"
@@ -12922,6 +13816,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 5.08 3.81 180)
+				(length 2.286)
+				(name "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -12935,8 +13847,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12945,38 +13861,46 @@
 		)
 		(property "Value" "SW-SPDT"
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-SPDT_0_1"
@@ -13046,24 +13970,6 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 2.54 180)
-				(length 2.286)
-				(name "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 6.35 -2.54 180)
 				(length 2.286)
 				(name "2"
@@ -13074,6 +13980,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 2.54 180)
+				(length 2.286)
+				(name "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13094,8 +14018,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "SW"
 			(at -3.81 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13104,38 +14032,46 @@
 		)
 		(property "Value" "SW-SPST"
 			(at 0 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "SW-SPST_0_1"
@@ -13222,8 +14158,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13232,6 +14172,8 @@
 		)
 		(property "Value" "TBA820M"
 			(at 0.635 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13240,29 +14182,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TBA820M_0_0"
@@ -13288,17 +14236,17 @@
 			)
 		)
 		(symbol "TBA820M_1_1"
-			(pin input line
-				(at -6.35 3.81 0)
+			(pin passive line
+				(at 6.35 3.81 270)
 				(length 2.54)
-				(name "IN+"
+				(name "FC"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13324,17 +14272,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "VS"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "IN+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13353,6 +14301,42 @@
 					)
 				)
 				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "VS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13396,42 +14380,6 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 6.35 3.81 270)
-				(length 2.54)
-				(name "FC"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 		)
 		(embedded_fonts no)
 	)
@@ -13443,8 +14391,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -1.27 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13453,6 +14405,8 @@
 		)
 		(property "Value" "TBA820M+"
 			(at 1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13461,29 +14415,35 @@
 		)
 		(property "Footprint" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 2.54 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TBA820M+_0_0"
@@ -13509,17 +14469,17 @@
 			)
 		)
 		(symbol "TBA820M+_1_1"
-			(pin input line
-				(at -6.35 3.81 0)
-				(length 2.54)
-				(name "IN+"
+			(pin passive line
+				(at 7.62 2.54 270)
+				(length 1.905)
+				(name "FC"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "3"
+				(number "1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13545,17 +14505,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 6.35 270)
-				(length 1.905)
-				(name "VS"
+			(pin input line
+				(at -6.35 3.81 0)
+				(length 2.54)
+				(name "IN+"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "6"
+				(number "3"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13581,17 +14541,35 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 2.54 5.08 270)
-				(length 1.905)
-				(name "RR"
+			(pin output line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "OUT"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "8"
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 6.35 270)
+				(length 1.905)
+				(name "VS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13618,34 +14596,16 @@
 				)
 			)
 			(pin passive line
-				(at 7.62 2.54 270)
+				(at 2.54 5.08 270)
 				(length 1.905)
-				(name "FC"
+				(name "RR"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 11.43 0 180)
-				(length 2.54)
-				(name "OUT"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
+				(number "8"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -13664,8 +14624,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at -0.635 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13674,6 +14638,8 @@
 		)
 		(property "Value" "TDA2009"
 			(at 1.27 -1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13682,29 +14648,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "TDA2009_0_0"
@@ -13920,42 +14892,6 @@
 		)
 		(symbol "TDA2009_1_1"
 			(pin input line
-				(at -11.43 11.43 0)
-				(length 2.54)
-				(name "In1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 3.81 0)
-				(length 2.54)
-				(name "Inv1"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin input line
 				(at -11.43 -3.81 0)
 				(length 2.54)
 				(name "In2"
@@ -13991,6 +14927,60 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 3.81 -19.05 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 3.81 0)
+				(length 2.54)
+				(name "Inv1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -11.43 11.43 0)
+				(length 2.54)
+				(name "In1"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 			(pin power_in line
 				(at -3.81 -19.05 90)
 				(length 2.54)
@@ -14009,42 +14999,6 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 19.05 270)
-				(length 2.54)
-				(name "VS"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 3.81 -19.05 90)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
 			(pin output line
 				(at 11.43 7.62 180)
 				(length 2.54)
@@ -14056,6 +15010,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 19.05 270)
+				(length 2.54)
+				(name "VS"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -14095,8 +15067,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Q"
 			(at 3.81 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14105,6 +15081,8 @@
 		)
 		(property "Value" "UJT"
 			(at 4.826 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14113,29 +15091,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "UJT_0_1"
@@ -14225,24 +15209,6 @@
 				)
 			)
 			(pin passive line
-				(at -5.08 1.27 0)
-				(length 1.778)
-				(name "E"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "e"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 1.27 5.08 270)
 				(length 2.032)
 				(name "B1"
@@ -14278,11 +15244,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -5.08 1.27 0)
+				(length 1.778)
+				(name "E"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "e"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
 	(symbol "V+"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -14293,17 +15277,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 3.81 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "V+"
 			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14312,29 +15302,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "V+_0_0"
@@ -14412,7 +15408,7 @@
 		(embedded_fonts no)
 	)
 	(symbol "V-"
-		(power)
+		(power global)
 		(pin_numbers
 			(hide yes)
 		)
@@ -14423,17 +15419,23 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "#PWR"
 			(at 3.81 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Value" "V-"
 			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14442,29 +15444,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "V-_0_0"
@@ -14539,8 +15547,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T"
 			(at -0.889 9.525 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14549,38 +15561,46 @@
 		)
 		(property "Value" "XFRMR"
 			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 8.89 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "XFRMR_0_1"
@@ -14827,24 +15847,6 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 7.62 0)
-				(length 3.175)
-				(name "P2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "p2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -6.35 -7.62 0)
 				(length 3.175)
 				(name "P1"
@@ -14863,16 +15865,16 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 7.62 180)
+				(at -6.35 7.62 0)
 				(length 3.175)
-				(name "S2"
+				(name "P2"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "s2"
+				(number "p2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -14898,6 +15900,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 6.35 7.62 180)
+				(length 3.175)
+				(name "S2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "s2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -14911,8 +15931,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T"
 			(at -0.762 10.668 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14921,38 +15945,46 @@
 		)
 		(property "Value" "XFRMR-CTR"
 			(at 0.254 -11.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 9.525 -8.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 9.525 -8.636 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "XFRMR-CTR_1_1"
@@ -15221,24 +16253,6 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 7.62 0)
-				(length 3.175)
-				(name "P2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "p2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -6.35 -7.62 0)
 				(length 3.175)
 				(name "P1"
@@ -15257,16 +16271,16 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 8.89 180)
+				(at -6.35 7.62 0)
 				(length 3.175)
-				(name "S2"
+				(name "P2"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "s2"
+				(number "p2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -15310,6 +16324,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 6.35 8.89 180)
+				(length 3.175)
+				(name "S2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "s2"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
 		)
 		(embedded_fonts no)
 	)
@@ -15323,8 +16355,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "T"
 			(at -0.762 12.192 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15333,38 +16369,46 @@
 		)
 		(property "Value" "XFRMR-DUAL"
 			(at -0.508 -12.446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
 			(at 9.525 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 9.525 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "XFRMR-DUAL_0_1"
@@ -15623,24 +16667,6 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 7.62 0)
-				(length 3.175)
-				(name "P2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-				(number "p2"
-					(effects
-						(font
-							(size 0.762 0.762)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -6.35 -7.62 0)
 				(length 3.175)
 				(name "P1"
@@ -15659,16 +16685,16 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 10.16 180)
+				(at -6.35 7.62 0)
 				(length 3.175)
-				(name "S4"
+				(name "P2"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "s4"
+				(number "p2"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -15677,16 +16703,16 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 1.27 180)
+				(at 6.35 -10.16 180)
 				(length 3.175)
-				(name "S3"
+				(name "S1"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "s3"
+				(number "s1"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -15713,16 +16739,34 @@
 				)
 			)
 			(pin passive line
-				(at 6.35 -10.16 180)
+				(at 6.35 1.27 180)
 				(length 3.175)
-				(name "S1"
+				(name "S3"
 					(effects
 						(font
 							(size 0.762 0.762)
 						)
 					)
 				)
-				(number "s1"
+				(number "s3"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 6.35 10.16 180)
+				(length 3.175)
+				(name "S4"
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+				(number "s4"
 					(effects
 						(font
 							(size 0.762 0.762)
@@ -15744,8 +16788,12 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "Z"
 			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15754,6 +16802,8 @@
 		)
 		(property "Value" "ZENER"
 			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15762,29 +16812,35 @@
 		)
 		(property "Footprint" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(symbol "ZENER_0_1"
