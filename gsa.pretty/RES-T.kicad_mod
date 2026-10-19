@@ -1,0 +1,234 @@
+(footprint "RES-T"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(uuid "4aabc85a-5b42-4130-b539-a2f7a94f262b")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "RES-T"
+		(at 0 -7.62 0)
+		(layer "F.Fab")
+		(uuid "7e0c259a-dfcf-45f5-a026-50ace51a9a88")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e78041b-7e6c-4f46-88ec-55b944d32d0c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "083855a9-c090-4f25-93fd-3a0d45472b12")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 -2.54)
+		(end -3.81 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1d9a1286-e9bf-4e36-ac49-0febe47c9556")
+	)
+	(fp_line
+		(start -3.255 0)
+		(end -5.16 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "02f0f86e-a053-422a-bc5e-7a7d9321dfa8")
+	)
+	(fp_line
+		(start -3.175 -1.27)
+		(end -3.175 1.27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ae9861b3-db54-4193-b42b-70a8a06934a0")
+	)
+	(fp_line
+		(start -3.175 1.27)
+		(end 3.175 1.27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "07817d0f-e9c2-4a50-ba91-89cfdd364291")
+	)
+	(fp_line
+		(start 3.095 0)
+		(end 5 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2180e52-85f1-4651-b989-f1e9cd5ce85a")
+	)
+	(fp_line
+		(start 3.175 -1.27)
+		(end -3.175 -1.27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cdcda687-a674-4e2b-ae81-40ba167e30d0")
+	)
+	(fp_line
+		(start 3.175 1.27)
+		(end 3.175 -1.27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "49400259-84eb-4ad3-9f82-f6c1203a2098")
+	)
+	(fp_line
+		(start 3.81 0)
+		(end 3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d4060933-22f8-4c43-b802-554d50abccc4")
+	)
+	(fp_arc
+		(start -3.81 -2.54)
+		(mid 0 -6.35)
+		(end 3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21e66f2e-df46-4e5e-9ad4-536dc0a3694a")
+	)
+	(pad "1" thru_hole circle
+		(at -5.16 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "2b837cdf-ca7e-4444-83f5-6df47737773c")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "e8f98926-e778-46fd-98d0-a5f229c92aed")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.08)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "c3371366-8178-4850-bedd-bb359e674a7d")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "663426b2-8bad-442a-a3a7-2de2cf78a7d6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "8dd3f4ab-6fd3-4ec2-840d-ae9072b5e047")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "85fa2073-7845-4e7f-bdde-b45a6fbd919f")
+	)
+	(pad "3" thru_hole circle
+		(at 5 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "d865ed14-6ade-47e8-9fdf-b9c85ec6e004")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/trimvs.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${GSALIB}/gsa.3d/res10.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${GSALIB}/gsa.3d/trimhs.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
