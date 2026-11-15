@@ -1,28 +1,151 @@
-(module BR-H10 (layer F.Cu) (tedit 5EC8E703)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value BR-H10 (at 0 -5.08) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start 3.81 -3.81) (end -3.81 -3.81) (layer F.SilkS) (width 0.3048))
-  (fp_arc (start 0 0) (end 3.81 -3.81) (angle 270) (layer F.SilkS) (width 0.3048))
-  (fp_text user + (at 4.445 -4.445) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_text user ~~ (at -2.54 -1.27) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_text user ~~ (at 2.54 1.27) (layer F.SilkS)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (pad a2 thru_hole circle (at 2.54 2.54) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad d1 thru_hole roundrect (at -2.54 2.54) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
-  (pad a1 thru_hole circle (at -2.54 -2.54) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad d2 thru_hole circle (at 2.54 -2.54) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/br-h10.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "BR-H10"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "128d863f-9ef0-4add-adbd-08c329201cca")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "BR-H10"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(uuid "2b11d593-a308-4443-b13e-04847a1cbb6e")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "add7cbad-f43c-4e27-8f97-6c95f8770ae6")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2e85143b-a991-4eb4-9cc0-59aaa0bac78b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 3.81 -3.81)
+		(end -3.81 -3.81)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6ee5b350-7098-46eb-ac06-44a411042702")
+	)
+	(fp_arc
+		(start 3.81 -3.81)
+		(mid 0 5.388154)
+		(end -3.81 -3.81)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8d2ff3ac-97ae-4c50-868c-598127568caa")
+	)
+	(fp_text user "~"
+		(at -2.54 -1.27 0)
+		(layer "F.SilkS")
+		(uuid "84175ced-197f-4469-9533-4134370c1d70")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(fp_text user "~"
+		(at 2.54 1.27 0)
+		(layer "F.SilkS")
+		(uuid "b9200d6f-e8d2-4002-9fcd-186082e5fdfb")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(fp_text user "+"
+		(at 4.445 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "132e2901-bd9a-4161-ad24-29304738619d")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(pad "a1" thru_hole circle
+		(at -2.54 -2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "feb2fb2a-e2f5-498b-be65-ef66f9d019c3")
+	)
+	(pad "a2" thru_hole circle
+		(at 2.54 2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "60beb6f2-0495-41bd-8018-71dde3706930")
+	)
+	(pad "d1" thru_hole roundrect
+		(at -2.54 2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "38785f8b-cfa0-429e-bf0a-0f1693abba5c")
+	)
+	(pad "d2" thru_hole circle
+		(at 2.54 -2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2c68f02-c0ee-479a-9b5c-1f186057e89c")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/br-h10.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

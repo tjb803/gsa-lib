@@ -1,9 +1,62 @@
-(module PAD15 (layer F.Cu) (tedit 5EC8115D)
-  (fp_text reference REF** (at 0 2.54) (layer F.SilkS) hide
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value PAD15 (at 0 -3.175) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (pad 0 thru_hole circle (at 0 0) (size 3.048 3.048) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
+(footprint "PAD15"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "a6146765-c37e-48d8-a1e2-b6f53239ddd3")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "PAD15"
+		(at 0 -3.175 0)
+		(layer "F.Fab")
+		(uuid "6ceec040-867c-4492-adb7-13f83a3ceaad")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e234489d-1b28-457e-9d95-15917f059279")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d3493c12-1d45-46eb-8290-58502b957516")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(pad "0" thru_hole circle
+		(at 0 0)
+		(size 3.048 3.048)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4586b077-a296-4430-91d5-09de1da11269")
+	)
+	(embedded_fonts no)
 )

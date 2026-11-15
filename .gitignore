@@ -5,3 +5,4 @@ fp-info-cache
 *.wings~
 *.wings#
 _autosave*
+.history/

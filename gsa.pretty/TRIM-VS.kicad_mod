@@ -1,20 +1,129 @@
-(module TRIM-VS (layer F.Cu) (tedit 5ED2268B)
-  (fp_text reference REF** (at 0 1.905) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value TRIM-VS (at 0 -5.08) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start -3.81 -3.175) (end 3.81 -3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 3.81 0.635) (end 3.81 -3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -3.81 0.635) (end 3.81 0.635) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -3.81 -3.175) (end -3.81 0.635) (layer F.SilkS) (width 0.3048))
-  (pad 2 thru_hole circle (at 0 -2.54) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole roundrect (at -2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
-  (model ${GSALIB}/gsa.3d/trimvs.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TRIM-VS"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 1.905 0)
+		(layer "F.SilkS")
+		(uuid "313d37be-7ed2-451b-938a-4f6bfc2514c8")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "TRIM-VS"
+		(at 0 -5.08 0)
+		(layer "F.Fab")
+		(uuid "a5f244a4-76e2-4eb2-9028-5b49b4d404d0")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e086f312-78d4-4dd2-90cd-aad3f7a07790")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "021500ac-97b7-4694-a0a7-73662dda8440")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 -3.175)
+		(end -3.81 0.635)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e8667ac-f5fe-43f8-ba50-9210f7317315")
+	)
+	(fp_line
+		(start -3.81 -3.175)
+		(end 3.81 -3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb0aa84a-d9d4-405d-a64f-b124e20486c7")
+	)
+	(fp_line
+		(start -3.81 0.635)
+		(end 3.81 0.635)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "279159fb-a9c2-4a6c-b7cc-fc69d0edd523")
+	)
+	(fp_line
+		(start 3.81 0.635)
+		(end 3.81 -3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8b272bf-0dfd-4e9c-a91d-61c183fd7c13")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "0204d5e4-f50b-448c-a207-eb349c9e2c64")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.54)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9256fbf8-6564-4375-84a4-b37256227982")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3c840f5d-d81d-4f42-bc55-22f57a1e5e57")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/trimvs.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

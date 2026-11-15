@@ -1,24 +1,169 @@
-(module MOLEX3 (layer F.Cu) (tedit 5ED225BA)
-  (fp_text reference REF** (at 0 4.445) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value MOLEX3 (at 0 -4.445) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start -3.175 3.175) (end 3.175 3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 3.81 2.54) (end 3.81 -2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 3.175 -3.175) (end -3.175 -3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -3.81 2.54) (end -3.81 -2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -3.175 -3.175) (end -3.81 -2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -3.81 2.54) (end -3.175 3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 3.175 3.175) (end 3.81 2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 3.175 -3.175) (end 3.81 -2.54) (layer F.SilkS) (width 0.3048))
-  (pad 1 thru_hole roundrect (at -2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
-  (pad 2 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/conn3.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "MOLEX3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.445 0)
+		(layer "F.SilkS")
+		(uuid "fd262ec1-3fe3-44f7-bacc-4ebc32a0d53e")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "MOLEX3"
+		(at 0 -4.445 0)
+		(layer "F.Fab")
+		(uuid "7cf11dfe-ceb9-4ed5-a9e8-b3b676a58d07")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bba84856-7384-48ec-bc80-e40f149e9a71")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b5f4323f-c5ec-4072-a923-9474dfa4a894")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -3.81 2.54)
+		(end -3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "982530c2-5726-4eb4-87d1-95ad48a51564")
+	)
+	(fp_line
+		(start -3.81 2.54)
+		(end -3.175 3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b89b7973-0b97-4953-85b1-f6350b7e5b25")
+	)
+	(fp_line
+		(start -3.175 -3.175)
+		(end -3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5dc3fa0-78a1-4a1d-8c35-799104559258")
+	)
+	(fp_line
+		(start -3.175 3.175)
+		(end 3.175 3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "329dd3e0-c6ac-47a9-a158-38dc17d5d0fc")
+	)
+	(fp_line
+		(start 3.175 -3.175)
+		(end -3.175 -3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3130103c-bfe6-4c81-b12a-73e0b5e9ae37")
+	)
+	(fp_line
+		(start 3.175 -3.175)
+		(end 3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bca424b1-5e63-4d22-96fb-ae478f1aaf39")
+	)
+	(fp_line
+		(start 3.175 3.175)
+		(end 3.81 2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee841a4c-4221-45c0-95d0-882c9b60e1e8")
+	)
+	(fp_line
+		(start 3.81 2.54)
+		(end 3.81 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "daa32969-1eec-49a7-a785-63d1c2cc2cd4")
+	)
+	(pad "1" thru_hole roundrect
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "bde3b60c-bd6e-4572-8ba5-93ef0c754531")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "af7ae92b-171d-4849-b1bd-fe61d534b459")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f769160a-4bbd-4770-9265-2fee36acc69a")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/conn3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

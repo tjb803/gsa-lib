@@ -1,13 +1,13 @@
 (footprint "HOLE33-G"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 3.175 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "acfad340-831f-4050-a8fe-374a2e9a90a8")
+		(uuid "3fe6bb62-b184-4b8b-bf94-5d0bfd7ac285")
 		(effects
 			(font
 				(size 1.016 0.762)
@@ -18,7 +18,7 @@
 	(property "Value" "HOLE33-G"
 		(at 0 -4.5 0)
 		(layer "F.Fab")
-		(uuid "7bb8d3da-7238-475b-ada6-e54238a6bec6")
+		(uuid "723f3d61-5244-424f-aab4-b8a6c6e17429")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -30,7 +30,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "400e2486-0c68-495a-87ea-af08a1638d01")
+		(uuid "3e86c17b-5012-44f3-9786-d8d53ce0b5d1")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -42,7 +42,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "f0fa5485-0b9a-4c62-b1c5-53171e36da01")
+		(uuid "619faa93-0d12-4ae8-990c-13a910b18f71")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -51,6 +51,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_circle
 		(center 0 0)
 		(end 2.5 2.5)
@@ -60,7 +61,7 @@
 		)
 		(fill no)
 		(layer "Eco1.User")
-		(uuid "c9d09420-55b2-416b-ba61-ffde6ebc21e1")
+		(uuid "6c8f490e-b397-4d5f-9232-39fa6bfd91c6")
 	)
 	(pad "0" thru_hole circle
 		(at 0 0)
@@ -68,7 +69,7 @@
 		(drill 3.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "8b2829fc-51f4-49f4-80f5-cc0253138735")
+		(uuid "71aae773-0d21-430c-94f5-5336e04c3a55")
 	)
 	(embedded_fonts no)
 )

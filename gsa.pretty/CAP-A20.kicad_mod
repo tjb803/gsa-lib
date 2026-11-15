@@ -1,0 +1,150 @@
+(footprint "CAP-A20"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "b63e47ee-ae8f-42fe-a599-9f5823bf1c71")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "CAP-A20"
+		(at 0 -3.5 0)
+		(layer "F.Fab")
+		(uuid "55edc2ed-6e02-4150-af18-2ba7d7437a74")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b478c8ef-b0d0-4063-ac16-5341e136a677")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1a11ed2c-2338-4a79-a92b-27e4b94e9578")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -10.16 0)
+		(end -5.5 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6987409-f776-43d9-97a3-aeafb08fce7a")
+	)
+	(fp_line
+		(start -5.5 -2)
+		(end -5.5 2)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "821d0508-aaa9-430e-a8e0-cad1b0456cd6")
+	)
+	(fp_line
+		(start -5.5 2)
+		(end 5.5 2)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "eb0b5da6-84df-4ccb-a823-364cbd1feaf5")
+	)
+	(fp_line
+		(start -4 1.27)
+		(end -4 -1.27)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09f5a59e-51f0-4b84-ae44-5cf14de99935")
+	)
+	(fp_line
+		(start 5.5 -2)
+		(end -5.5 -2)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9b04fd64-ca55-42d4-96ac-2c441232ccc4")
+	)
+	(fp_line
+		(start 5.5 2)
+		(end 5.5 -2)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dc5c7823-0be0-468e-9baf-a298388687f6")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 5.5 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "09915025-69e5-4732-b1ab-503e668f58d5")
+	)
+	(pad "1" thru_hole circle
+		(at -10.16 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7a579771-13fb-42a5-92f8-5bd9d0751959")
+	)
+	(pad "2" thru_hole circle
+		(at 10.16 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bb3c4e80-b291-4e72-8a93-b1bb1e2aeef1")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/cap-a20.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

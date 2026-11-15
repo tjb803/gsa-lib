@@ -1,23 +1,161 @@
-(module MOLEX2 (layer F.Cu) (tedit 5ED22599)
-  (fp_text reference REF** (at 0 4.445) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value MOLEX2 (at 0 -4.445) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start 2.54 -2.54) (end 2.54 2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 1.905 3.175) (end -1.905 3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -2.54 2.54) (end -2.54 -2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -1.905 -3.175) (end 1.905 -3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -1.905 -3.175) (end -2.54 -2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -2.54 2.54) (end -1.905 3.175) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 1.905 3.175) (end 2.54 2.54) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 1.905 -3.175) (end 2.54 -2.54) (layer F.SilkS) (width 0.3048))
-  (pad 1 thru_hole roundrect (at -1.27 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
-  (pad 2 thru_hole circle (at 1.27 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/conn2.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "MOLEX2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.445 0)
+		(layer "F.SilkS")
+		(uuid "c5864cd1-8f86-48e8-a9b0-8c99034ec3d5")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "MOLEX2"
+		(at 0 -4.445 0)
+		(layer "F.Fab")
+		(uuid "dba97741-9030-409d-a029-a9791e25c614")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "026ffb9f-a8aa-4469-89e7-a80c227e3a9d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f835ced-530f-468c-819b-76078fd491cb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -2.54 2.54)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c1c17fd1-f29a-4206-942d-113924257e6d")
+	)
+	(fp_line
+		(start -2.54 2.54)
+		(end -1.905 3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17af8706-d1bd-49ab-a81a-67a3c42aea74")
+	)
+	(fp_line
+		(start -1.905 -3.175)
+		(end -2.54 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "94ffa128-1721-4dc4-8c34-bab5cfed4ab5")
+	)
+	(fp_line
+		(start -1.905 -3.175)
+		(end 1.905 -3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "afe7d6db-de51-4ed6-82bb-d13f90706c8e")
+	)
+	(fp_line
+		(start 1.905 -3.175)
+		(end 2.54 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e58a91e3-c379-47bf-8094-8c624613e7d0")
+	)
+	(fp_line
+		(start 1.905 3.175)
+		(end -1.905 3.175)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be005014-ae16-4fbb-bcc8-3a5a1dfe71ed")
+	)
+	(fp_line
+		(start 1.905 3.175)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "81918964-a836-43e6-b5de-d3ff578f6969")
+	)
+	(fp_line
+		(start 2.54 -2.54)
+		(end 2.54 2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3761ddf0-e87a-4fbe-a7b0-4b91eece5947")
+	)
+	(pad "1" thru_hole roundrect
+		(at -1.27 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "ad35c603-861d-44bf-99c7-2cdb3a4496e2")
+	)
+	(pad "2" thru_hole circle
+		(at 1.27 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a7dfea3c-eaa8-4531-8120-b67f9a65140b")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/conn2.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

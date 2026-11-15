@@ -1,22 +1,148 @@
-(module TO220 (layer F.Cu) (tedit 5EC3FFDF)
-  (fp_text reference REF** (at 0 3.175) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value TO220 (at 0 -4.445) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start -5.08 -2.032) (end 5.08 -2.032) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 -3.302) (end -5.08 2.032) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 5.08 -3.302) (end 5.08 2.032) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 2.032) (end 5.08 2.032) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 -3.302) (end 5.08 -3.302) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 -2.667) (end 5.08 -2.667) (layer F.SilkS) (width 0.3048))
-  (pad 2 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (pad 1 thru_hole circle (at -2.54 0) (size 2.032 2.032) (drill 1) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/to220.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TO220"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.175 0)
+		(layer "F.SilkS")
+		(uuid "a624283e-0563-4646-8f57-75bbe18d32bd")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "TO220"
+		(at 0 -4.445 0)
+		(layer "F.Fab")
+		(uuid "366cb9fb-4b2c-41f1-96da-23c975b41ce4")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67992885-8855-44f1-be38-c22032bc763c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "142464b7-bcad-4bcc-b847-34558f569438")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.08 -3.302)
+		(end -5.08 2.032)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8a890067-e521-45b0-ae25-db406b01eb0f")
+	)
+	(fp_line
+		(start -5.08 -3.302)
+		(end 5.08 -3.302)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a117ddd-bd79-461d-a3a5-186d7749c671")
+	)
+	(fp_line
+		(start -5.08 -2.667)
+		(end 5.08 -2.667)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b0c08666-b480-4bf7-a864-0c13a7b38e79")
+	)
+	(fp_line
+		(start -5.08 -2.032)
+		(end 5.08 -2.032)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36706951-3c00-456a-a164-4d5f3fe24f5e")
+	)
+	(fp_line
+		(start -5.08 2.032)
+		(end 5.08 2.032)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4beaba55-88ad-40e8-8797-bcda318acb0e")
+	)
+	(fp_line
+		(start 5.08 -3.302)
+		(end 5.08 2.032)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "17798d27-2aac-4f91-a1a9-092a1711873e")
+	)
+	(pad "1" thru_hole circle
+		(at -2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "688103c9-895c-4214-a537-badc2fb68de5")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afe5e50a-6669-446b-b6d9-b914f9ad94a7")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2.032 2.032)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3804090e-c6f0-4128-96ff-3713d2db20bf")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/to220.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

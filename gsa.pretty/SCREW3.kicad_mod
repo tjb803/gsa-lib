@@ -1,21 +1,139 @@
-(module SCREW3 (layer F.Cu) (tedit 5EC38942)
-  (fp_text reference REF** (at 0 3.175) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value SCREW3 (at 0 -6.35) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start -7.5 5) (end -7.5 0) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -7.5 0) (end -7.5 -5) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 7.5 -5) (end 7.5 5) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -7.5 -5) (end 7.5 -5) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -7.5 5) (end 7.5 5) (layer F.SilkS) (width 0.3048))
-  (pad 1 thru_hole roundrect (at -5.08 0) (size 3.048 3.048) (drill 1.5) (layers *.Cu *.Mask F.SilkS) (roundrect_rratio 0.25))
-  (pad 2 thru_hole circle (at 0 0) (size 3.048 3.048) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-  (pad 3 thru_hole circle (at 5.08 0) (size 3.048 3.048) (drill 1.5) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/screw3.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SCREW3"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 3.175 0)
+		(layer "F.SilkS")
+		(uuid "e06a6aaf-6262-4e39-9d70-6458ecdb2d48")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "SCREW3"
+		(at 0 -6.35 0)
+		(layer "F.Fab")
+		(uuid "b64ada5c-f322-466a-8fc2-49ae7a0c105f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45817697-5a87-4c7d-ad20-d5e576f600ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7c598408-1386-45b3-92f8-0df2a866a75d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -7.5 -5)
+		(end 7.5 -5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "252e6b21-089d-4d91-b766-1c4009c12ee1")
+	)
+	(fp_line
+		(start -7.5 0)
+		(end -7.5 -5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f8bcc66d-5e8a-4abf-bdb5-46b7e89c3aa7")
+	)
+	(fp_line
+		(start -7.5 5)
+		(end -7.5 0)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e2f6e34-bf6b-4f20-8372-a8b8c998fa89")
+	)
+	(fp_line
+		(start -7.5 5)
+		(end 7.5 5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "60c94886-4ee4-4dc7-b618-3b93ee9ca378")
+	)
+	(fp_line
+		(start 7.5 -5)
+		(end 7.5 5)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "356f3e33-a2b6-4d2b-ad1b-b1ac87d1641b")
+	)
+	(pad "1" thru_hole roundrect
+		(at -5.08 0)
+		(size 3.048 3.048)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "09f6ada1-46c5-440e-8a20-f53db0ea66f6")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 3.048 3.048)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9620255e-90d5-41ef-a2b8-9835e9c28a6c")
+	)
+	(pad "3" thru_hole circle
+		(at 5.08 0)
+		(size 3.048 3.048)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "80b8060c-6f37-4511-9ece-ec55b0de6e21")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/screw3.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

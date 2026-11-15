@@ -1,19 +1,120 @@
-(module CAP1035 (layer F.Cu) (tedit 5EC30307)
-  (fp_text reference REF** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value CAP1035 (at 0 -3.175) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start -5.08 -1.778) (end -5.08 1.778) (layer F.SilkS) (width 0.3048))
-  (fp_line (start 5.08 -1.778) (end 5.08 1.778) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 -1.905) (end 5.08 -1.905) (layer F.SilkS) (width 0.3048))
-  (fp_line (start -5.08 1.905) (end 5.08 1.905) (layer F.SilkS) (width 0.3048))
-  (pad 1 thru_hole circle (at -3.81 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad 2 thru_hole circle (at 3.81 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/cap1035.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "CAP1035"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "cf27a349-8875-4b02-987c-04ca4e6dfbe8")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "CAP1035"
+		(at 0 -3.175 0)
+		(layer "F.Fab")
+		(uuid "fea098a4-db94-4cdf-87a0-ba1b263ac10f")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be11cfda-7521-4d27-8d32-c7a08e09ac4d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "06b02780-d6f3-4214-87be-c71c0b10c296")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.08 -1.905)
+		(end 5.08 -1.905)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8fca6a18-354b-4ded-85e9-6b70b3319363")
+	)
+	(fp_line
+		(start -5.08 -1.778)
+		(end -5.08 1.778)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1ab65ef4-dad7-4b0b-8012-8f827df3b4b8")
+	)
+	(fp_line
+		(start -5.08 1.905)
+		(end 5.08 1.905)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4083c0d3-a63d-4130-b417-4027d1b358b3")
+	)
+	(fp_line
+		(start 5.08 -1.778)
+		(end 5.08 1.778)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23ec199a-674a-46f9-9f0d-4fe94dbfc39e")
+	)
+	(pad "1" thru_hole circle
+		(at -3.81 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ce488731-9da2-4ec7-9ed2-8cb1cf2becfa")
+	)
+	(pad "2" thru_hole circle
+		(at 3.81 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4ceff0f4-44bc-4d09-84b9-ae664d5c1d30")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/cap1035.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

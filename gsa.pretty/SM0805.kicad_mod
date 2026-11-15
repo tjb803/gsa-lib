@@ -1,0 +1,123 @@
+(footprint "SM0805"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
+	(tags "resistor handsolder")
+	(property "Reference" "REF**"
+		(at 0 1.75 0)
+		(layer "F.SilkS")
+		(uuid "64f6d515-8b7a-41c5-bc5b-79786cf756a7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SM0805"
+		(at 0 -1.75 0)
+		(layer "F.Fab")
+		(uuid "052cd4c6-0737-4c04-8fa5-985c91124f15")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ca56a3cb-94de-4c59-8c85-4990ec9f0896")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3056ddeb-21bc-4387-98ef-769e2edec936")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "KiLib_Generator" "SMD_2terminal_chip_molded"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "02e10db6-9181-4bd3-a1d8-7ea1f549aadb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -0.25 -0.6)
+		(end -0.25 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe584d7f-4321-4a69-b45c-bf4db4a2fed3")
+	)
+	(fp_line
+		(start 0.25 -0.6)
+		(end 0.25 0.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0fd052ef-f643-42bb-b826-dcb7aef06470")
+	)
+	(fp_rect
+		(start -1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "10e0c75c-a3fe-4212-986f-4df7f1c75d22")
+	)
+	(pad "1" smd roundrect
+		(at -1 0)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "85b62f25-0ce2-4a40-84c0-57ef6d5e14e4")
+	)
+	(pad "2" smd roundrect
+		(at 1 0)
+		(size 1.2 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.208333)
+		(uuid "4439fa08-d3de-435e-add0-a2c7bc7cfe10")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/sm0805.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

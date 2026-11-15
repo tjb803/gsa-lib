@@ -1,12 +1,12 @@
 (footprint "LINK10"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 1.27 0)
 		(layer "F.SilkS")
-		(uuid "6ac1f390-9ab3-412d-94be-0b5e7ab93fdf")
+		(uuid "a2a2b5b7-6c6d-47e0-afcf-7cb57109603a")
 		(effects
 			(font
 				(size 1.016 0.762)
@@ -17,7 +17,7 @@
 	(property "Value" "LINK10"
 		(at 0 -1.27 0)
 		(layer "F.Fab")
-		(uuid "644373b4-0f15-41ef-ab94-0ee67e82bb44")
+		(uuid "655900ec-5545-4584-9ef6-3c49fb66ff01")
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -29,7 +29,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "dcebb0eb-8178-4830-81af-79aa1c155242")
+		(uuid "bac69489-bb86-47d9-a3b3-938ef4209448")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -41,7 +41,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3b9930e6-b1a9-4c2f-bfd0-72124f9ed15c")
+		(uuid "95a1a4e9-1408-4ad6-8176-aa462c9897ff")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -50,6 +50,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -5 0)
 		(end 5 0)
@@ -58,23 +59,23 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c6b6243f-579f-4446-bff1-06031c4329d5")
+		(uuid "93a22651-9f71-4f9d-82be-e03b1230ce68")
 	)
 	(pad "1" thru_hole circle
 		(at -5 0)
 		(size 1.524 1.524)
 		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "c9a4ee8c-5140-45dc-97f2-3279f692c276")
+		(uuid "15121fbc-6a76-408c-82c6-911d182e8a69")
 	)
 	(pad "2" thru_hole circle
 		(at 5 0)
 		(size 1.524 1.524)
 		(drill 0.7)
-		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e5c4393b-718e-45e3-8504-1c6f1e7d99fe")
+		(uuid "dad3dccc-5083-4ce4-9142-91b81c4c3543")
 	)
 	(embedded_fonts no)
 	(model "${GSALIB}/gsa.3d/link10.wrl"

@@ -1,20 +1,131 @@
-(module TO92F-ECB (layer F.Cu) (tedit 5EDA6F90)
-  (fp_text reference REF** (at 0 2.54) (layer F.SilkS)
-    (effects (font (size 1.016 0.762) (thickness 0.1905)))
-  )
-  (fp_text value TO92F-ECB (at 0 -4.445) (layer F.Fab)
-    (effects (font (size 1.016 1.016) (thickness 0.1905)))
-  )
-  (fp_line (start 1.778 1.016) (end -1.778 1.016) (layer F.SilkS) (width 0.3048))
-  (fp_arc (start 0 -0.762) (end 1.778 -2.54) (angle 90) (layer F.SilkS) (width 0.3048))
-  (fp_arc (start 0 -0.762) (end -1.778 1.016) (angle 90) (layer F.SilkS) (width 0.3048))
-  (fp_arc (start 0 -0.762) (end -1.778 -2.54) (angle 90) (layer F.SilkS) (width 0.3048))
-  (pad c thru_hole circle (at 0 -1.905) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad e thru_hole circle (at -1.27 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (pad b thru_hole circle (at 1.27 0) (size 1.524 1.524) (drill 0.7) (layers *.Cu *.Mask F.SilkS))
-  (model ${GSALIB}/gsa.3d/to92f.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "TO92F-ECB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 2.54 0)
+		(layer "F.SilkS")
+		(uuid "45d6feea-99b2-482b-ac03-fb970f6c017d")
+		(effects
+			(font
+				(size 1.016 0.762)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Value" "TO92F-ECB"
+		(at 0 -4.445 0)
+		(layer "F.Fab")
+		(uuid "c9ba5837-ae7e-4401-9526-3d1738644af5")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.1905)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5d16f5c5-f636-4c2b-a83d-399b3fb90693")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8136c68-fd92-4eb0-a14b-3f27d2e7922e")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 1.778 1.016)
+		(end -1.778 1.016)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abae597e-8299-4f80-b59a-4ef055ad52b5")
+	)
+	(fp_arc
+		(start -1.778 -2.54)
+		(mid 0 -3.276472)
+		(end 1.778 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1525ce4d-0451-43a5-87c5-9f5d909f9685")
+	)
+	(fp_arc
+		(start -1.778 1.016)
+		(mid -2.514472 -0.762)
+		(end -1.778 -2.54)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2a8f505-02ec-4248-918b-a4aa223b3587")
+	)
+	(fp_arc
+		(start 1.778 -2.54)
+		(mid 2.514472 -0.762)
+		(end 1.778 1.016)
+		(stroke
+			(width 0.3048)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0309d662-93d5-4c93-8f9a-b606c09fe611")
+	)
+	(pad "b" thru_hole circle
+		(at 1.27 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3076c504-d958-4ebc-907f-3853b70b151e")
+	)
+	(pad "c" thru_hole circle
+		(at 0 -1.905)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22d445c7-f5f0-462c-aa36-214ddebefe4a")
+	)
+	(pad "e" thru_hole circle
+		(at -1.27 0)
+		(size 1.524 1.524)
+		(drill 0.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3782b575-0030-470c-9983-3e98018b50f8")
+	)
+	(embedded_fonts no)
+	(model "${GSALIB}/gsa.3d/to92f.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
